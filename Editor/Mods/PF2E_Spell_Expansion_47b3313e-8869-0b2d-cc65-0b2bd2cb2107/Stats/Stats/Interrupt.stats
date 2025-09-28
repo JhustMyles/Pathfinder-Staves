@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="c496009d-a970-44a3-b882-7ed3364dc271">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="98e06186-4523-4355-94bd-d41d670c05ea" />
+        <field name="Name" type="NameTableFieldDefinition" value="AirBubble" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="05b28204-d9e2-4c37-924f-6be51b38ca55" />
+        <field name="Name" type="NameTableFieldDefinition" value="BreatheOfLife" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

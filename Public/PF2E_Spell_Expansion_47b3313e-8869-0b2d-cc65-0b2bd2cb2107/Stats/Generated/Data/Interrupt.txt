@@ -1,0 +1,6 @@
+new entry "AirBubble"
+type "InterruptData"
+
+new entry "BreatheOfLife"
+type "InterruptData"
+

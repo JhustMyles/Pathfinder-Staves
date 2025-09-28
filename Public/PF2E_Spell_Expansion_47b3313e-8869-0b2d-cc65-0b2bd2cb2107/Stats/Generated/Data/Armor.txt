@@ -1,0 +1,21 @@
+new entry "SPELL ITEMS"
+type "Armor"
+
+new entry "MAG_FlamingShield"
+type "Armor"
+using "ARM_Shield"
+data "RootTemplate" "b85385b7-9311-41f0-99e3-cfde260415f5"
+data "ValueUUID" "f0e7be35-8be4-483d-afa8-dc9a104ea758"
+data "Rarity" "Uncommon"
+data "Boosts" "UnlockSpell(Shout_RaiseShield);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_Bash)"
+data "StatusOnEquip" "PF2_FIRE_SHIELD_WARM;"
+
+new entry "MAG_FlamingShield_6"
+type "Armor"
+using "ARM_Shield"
+data "RootTemplate" "9534e7fb-9b07-4575-9086-e27c804d117f"
+data "ValueUUID" "f0e7be35-8be4-483d-afa8-dc9a104ea758"
+data "Rarity" "Uncommon"
+data "Boosts" "UnlockSpell(Shout_RaiseShield);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_Bash)"
+data "StatusOnEquip" "PF2_FIRE_SHIELD_WARM_6"
+

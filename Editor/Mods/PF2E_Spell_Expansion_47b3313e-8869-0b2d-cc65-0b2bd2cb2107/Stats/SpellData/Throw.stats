@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="c75b1787-58d1-4696-8d05-4acbda82eda1">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="57d33bf6-19c8-4d74-b332-608f32250a74" />
+        <field name="Name" type="NameTableFieldDefinition" value="TelekineticHaul" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6a9d0c61-1bf7-43c6-9d0c-80bfe698fbe5" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="5" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Telekinesis" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4a5723e8g874cg288eg157ag14efbe2eec7e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h34e2c534ga9eag5125ge943ge4879dec8ff9" version="3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:2;SpellSlotsGroup:1:1:5" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="InventorySelection;RangeIgnoreVerticalThreshold;IsHarmful;HasHighGroundRangeExtension;IgnoreVisionBlock;AddFallDamageOnLand;HasVerbalComponent;HasSomaticComponent;CombatLogSetSingleLineRoll;IsSpell;IsAttack" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="ThrowableTargetConditions" type="StringTableFieldDefinition" value="not Grounded() and not IsItemDisabled() and not HasAttribute('InventoryBound') and (Item() or Dead()) and (not Character()) and (not IsEquipped() or IsEquipmentSlot(EquipmentSlot.MeleeMainHand) or IsEquipmentSlot(EquipmentSlot.MeleeOffHand) or IsEquipmentSlot(EquipmentSlot.Boots));" />
+        <field name="ThrowOrigin" type="EnumerationTableFieldDefinition" value="Target" enumeration_type_name="ThrowOrigin" version="1" />
+        <field name="ThrowableSpellRoll" type="StringTableFieldDefinition" value="TelekinesisCheck()" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="TARGET:IF(IsLightThrownObject(context.HitDescription.ThrownObject,false)):DealDamage(1,Bludgeoning);TARGET:IF(IsMediumThrownObject(context.HitDescription.ThrownObject,false)):DealDamage(1d4,Bludgeoning);TARGET:IF(IsHeavyThrownObject(context.HitDescription.ThrownObject,false)):DealDamage(2d4,Bludgeoning);TARGET:IF(HasWeaponProperty(WeaponProperties.Thrown,context.HitDescription.ThrownObject)):DealDamage(ThrownWeapon, ThrownWeaponDamageType);" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="18" />
+        <field name="ThrowableSpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,TELEKINETICHAUL_TECHNICAL,100,10);" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="112f6ce5-c64e-4c47-8afc-824744390c21,,;57a133ee-98e0-46a4-8f57-e2ae436206e3,,;6359af9b-f775-42fb-8dec-00dea9acbba5,,;8285df5d-b1f5-46d0-aee6-4dccfe8c6699,,;b65bfc83-80fd-465f-ae1b-c0606482b5dd,,;,,;2129b85c-1d9e-4f56-97a6-0f6b8c664d8a,,;,,;,," />
+        <field name="SpellAnimationType" type="EnumerationTableFieldDefinition" value="Telekinesis" enumeration_type_name="SpellAnimationType" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="1861cb83-aa7c-4b64-8dd3-37d2348f65c9" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="74c0adbe-5a19-430b-942a-f378180112b1" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="50bedaff-dd03-43bf-a7aa-4b9bef9eeb4e" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Control_Telekinesis_L5" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Control_Telekinesis_L5" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="TelekinesisCheck()" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(TELEKINETICHAUL_TECHNICAL,100,10)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL, 100, 0)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="ThrowableSpellSuccess" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="ProjectileTerrainOffset" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="HitEffect" type="GuidObjectTableFieldDefinition" value="50bedaff-dd03-43bf-a7aa-4b9bef9eeb4e" />
+        <field name="SpellSoundMagnitude" type="EnumerationTableFieldDefinition" value="Normal" enumeration_type_name="SpellSoundMagnitude" version="1" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6dedfd27-7431-4320-9d18-da5187cbdbf6" />
+        <field name="Name" type="NameTableFieldDefinition" value="TelekineticHaul_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="57d33bf6-19c8-4d74-b332-608f32250a74" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:2;SpellSlotsGroup:1:1:6" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Control_Telekinesis_L5" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Control_Telekinesis_L5" />
+        <field name="ThrowableSpellSuccess" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Throw_TelekineticHaul" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7696a7f3-b4d3-4bcc-949d-ceb955448e83" />
+        <field name="Name" type="NameTableFieldDefinition" value="TelekineticHaul_Recast" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="57d33bf6-19c8-4d74-b332-608f32250a74" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="InventorySelection;RangeIgnoreVerticalThreshold;IsHarmful;HasHighGroundRangeExtension;AddFallDamageOnLand;HasVerbalComponent;HasSomaticComponent;AbortOnSpellRollFail;AbortOnSecondarySpellRollFail;CombatLogSetSingleLineRoll;IsSpell;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h09d04e32gdeb0g9312g268fg59fababd5f4c" version="3" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="ThrowableSpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

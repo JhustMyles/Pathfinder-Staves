@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3f5063e7-e02b-4849-a503-9ba01dc6e2e6">
+  <stat_objects>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="024ffd7d-f901-4ade-8a6b-fae31ae76b66" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRUID/PRIMAL" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f0eeabb6-55b9-4505-afce-05b7d098c809" />
+        <field name="Name" type="NameTableFieldDefinition" value="Druid Cantrips" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Stabilize;Target_Spout;Shout_GaleBlast" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="b8faf12f-ca42-45c0-84f8-6951b526182a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28e43621-5a8e-4e68-beb1-e358ad777dfd" />
+        <field name="Name" type="NameTableFieldDefinition" value="Druid 1st Rank" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_ConductiveWeapon;" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="2cd54137-2fe5-4100-aad3-df64735a8145" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="63ef9f89-831a-463f-b72e-3db1b936a724" />
+        <field name="Name" type="NameTableFieldDefinition" value="Druid 2nd Rank" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_ClearMind;Target_SoundBody;Target_OakenResillience;Projectile_IgniteFireworks" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="92126d17-7f1a-41d2-ae6c-a8d254d2b135" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b9f37676-aff3-47bf-824f-bab3ab8ee54b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Druid 3rd Rank" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="ffb16c77-844f-44cb-bf5d-4941bf905ac7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a75147f4-f6dc-415d-a1ad-41ea3c4d9572" />
+        <field name="Name" type="NameTableFieldDefinition" value="Druid 4th Rank" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_PF2_FireShield_Summon;Target_TortoiseAndHare;Zone_WeaponStorm_ContainerA" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="57acc1f7-b169-4016-9b86-c6767d6d6d5a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="88215c36-efb1-4ac8-a6d2-b8ad372783c3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Druid 5th Rank" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="08e66cdc-ea8a-4002-a310-84fad202e0d7" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_MoonFrenzy_5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b42eb6e1-5575-4e17-b975-3a1f103d8446" />
+        <field name="Name" type="NameTableFieldDefinition" value="Druid 6th Rank" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="478fca7c-08ba-45cf-a6cd-d32711cda814" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8bfe3b54-0da7-459f-9621-45dfafa3443c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Primal 2nd" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_ConductiveWeapon;Target_ClearMind;Target_SoundBody;Target_OakenResillience;Target_ConductiveWeapon;Projectile_IgniteFireworks" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="5940db17-2611-4780-bc21-5da5dace619b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5e0a83d9-abf2-41e7-a7ad-542c7c28f8fb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Primal 3rd" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="de3cdbdd-e666-4c74-bf1d-d784ae94496c" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_ConductiveWeapon;Target_ClearMind;Target_SoundBody;Target_OakenResillience;Target_ConductiveWeapon;Projectile_IgniteFireworks" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9eee9c6e-93f2-4d27-b967-6618efaf9958" />
+        <field name="Name" type="NameTableFieldDefinition" value="Primal 4th" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_ConductiveWeapon;Target_ClearMind;Target_SoundBody;Target_OakenResillience;Target_ConductiveWeapon;Projectile_IgniteFireworksShout_PF2_FireShield_Summon;Target_TortoiseAndHare;Zone_WeaponStorm_ContainerA" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="ea87141e-3f42-4c9a-b3d4-605d7fbe5e5c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0eca8931-5d7d-414c-8cd2-d1dff8790196" />
+        <field name="Name" type="NameTableFieldDefinition" value="Primal 5th" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="4da58cba-1ee1-4772-9c0b-181a5a9f0d31" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_ConductiveWeapon;Target_ClearMind;Target_SoundBody;Target_OakenResillience;Target_ConductiveWeapon;Projectile_IgniteFireworksShout_PF2_FireShield_Summon;Target_TortoiseAndHare;Zone_WeaponStorm_ContainerA;Target_MoonFrenzy_5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c9b3777e-4c18-44b0-b7d4-802c7bba6f17" />
+        <field name="Name" type="NameTableFieldDefinition" value="Primal 6th" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="998af1f3-2d88-4f8e-b77a-1f2c9a0c5e78" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_ConductiveWeapon;Target_ClearMind;Target_SoundBody;Target_OakenResillience;Target_ConductiveWeapon;Projectile_IgniteFireworksShout_PF2_FireShield_Summon;Target_TortoiseAndHare;Zone_WeaponStorm_ContainerA;Target_MoonFrenzy_5" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1ba17fcb-d591-489b-8b2d-86d44502e66b" />
+        <field name="Name" type="NameTableFieldDefinition" value="WIZARD/ARCANE" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b8ddf1e2-d9a2-45b8-8768-188941d1703c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wizard Cantrips" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="3cae2e56-9871-4cef-bba6-96845ea765fa" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Spout;Shout_GaleBlast" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ca644212-5a33-424a-9a34-006f86570058" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wizard 1st Rank" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_KineticRam;Target_ConductiveWeapon;Target_TrueStrike" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="11f331b0-e8b7-473b-9d1f-19e8e4178d7d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dd678664-a348-4ea6-99c2-eb7313ffb77f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wizard 2nd Rank" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_KineticRam;Target_ConductiveWeapon;Target_TrueStrike;Target_TelekineticManuver;Target_OakenResillience;Projectile_IgniteFireworks;" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="5cb09b20-2b48-4598-b938-dce0aea62d7f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="828ebd17-efa4-4189-ac9b-7baf4a5da496" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wizard 3rd Rank" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="b8097c73-d37e-4c56-8aa0-6c889e1c79fb" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_KineticRam;Target_ConductiveWeapon;Target_TrueStrike;Target_TelekineticManuver;Target_OakenResillience;Projectile_IgniteFireworks;Target_Levitate_PF2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d65890cc-7b93-4fd5-86a8-29b0b3e7e8b0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wizard 4th Rank" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_KineticRam;Target_ConductiveWeapon;Target_TrueStrike;Target_TelekineticManuver;Target_OakenResillience;Projectile_IgniteFireworks;Target_Levitate_PF2;Shout_PF2_FireShield_Summon;Target_PlanarTether;Target_Containment;Zone_WeaponStorm_ContainerA" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="dfcf7153-ba05-4740-9c18-395941209728" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7bf78618-e74f-4d33-8975-c685726d5f7e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wizard 5th Rank" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="423ba380-9025-4a50-8e63-a1a03e10f9b1" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_KineticRam;Target_ConductiveWeapon;Target_TrueStrike;Target_TelekineticManuver;Target_OakenResillience;Projectile_IgniteFireworks;Target_Levitate_PF2;Shout_PF2_FireShield_Summon;Target_PlanarTether;Target_Containment;Zone_WeaponStorm_ContainerA;Throw_TelekineticHaul" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b00c92c2-e8ab-4e80-a5f0-23ab6489145b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wizard 6th Rank" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="b623e9d5-dd51-4acd-940b-6f3fc9955889" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_KineticRam;Target_ConductiveWeapon;Target_TrueStrike;Target_TelekineticManuver;Target_OakenResillience;Projectile_IgniteFireworks;Target_Levitate_PF2;Shout_PF2_FireShield_Summon;Target_PlanarTether;Target_Containment;Zone_WeaponStorm_ContainerA;Throw_TelekineticHaul;Target_CollectiveTransposition" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="396c98f5-bff8-4074-9386-08e108817ff6" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLERIC/DIVINE" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b7cb7f5e-2aa8-4e66-a140-97102683d27b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric Cantrips" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Stabilize" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="2f43a103-5bf1-4534-b14f-663decc0c525" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="343f271d-999e-4da8-bf1d-87d185786ef4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric 1st Rank" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="269d1a3b-eed8-4131-8901-a562238f5289" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b9315c44-7b78-4aee-b3d7-a985f9e86cc1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric 2nd Rank" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_ClearMind;Target_SoundBody;" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="2968a3e6-6c8a-4c2e-882a-ad295a2ad8ac" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9e72c848-9285-446f-bf9f-4721b68f994d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric 3rd Rank" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="21be0992-499f-4c7a-a77a-4430085e947a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="519cb06e-ba96-4072-bbed-7191a54fe307" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric 4th Rank" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="83e569d5-179a-43fd-b730-6066f559722e" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_PlanarTether" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3c3c1c0c-b790-4474-9154-26dec9ca87b6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric 5th Rank" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="0b4e55ca-f048-4800-8534-243e66609fbc" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="098b6835-59fc-4879-93e6-ac04f8f58685" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric 6th Rank" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="a3c34f2f-88d3-465c-b27a-6f6afb24a312" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a8e12396-4b68-4423-8646-cf1f9780c9c0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Divine 2nd" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_ClearMind;Target_SoundBody;" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="2e85c3b0-724d-435d-b001-4d3a3de0703e" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c623d04c-766a-44d1-b020-0581587335b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Divine 3rd" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="effc19cf-676c-4278-add6-bb48ef573b72" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_ClearMind;Target_SoundBody;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="13a224c6-7383-4d81-8953-8ab226cfd0d4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Divine 4th" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="da676b08-523d-4457-ad73-89067e1e706f" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_ClearMind;Target_SoundBody;Target_PlanarTether" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="258427ad-e38d-42a1-903a-7c43e40de9d5" />
+        <field name="Name" type="NameTableFieldDefinition" value="Divine 5th" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="6ba29367-353d-4168-a99e-ad727367d5e7" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_ClearMind;Target_SoundBody;Target_PlanarTether" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="13fac9b8-05c1-4230-b118-3684c4e84194" />
+        <field name="Name" type="NameTableFieldDefinition" value="Divine 6th" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="5d48d50c-8079-42ff-b198-182949e6c528" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_ClearMind;Target_SoundBody;Target_PlanarTether" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1b468e0e-57a7-43a6-9fda-d7645109e51f" />
+        <field name="Name" type="NameTableFieldDefinition" value="BARD/OCCULT" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="99d3f508-8b7a-4027-b1c6-58a8f6049cb9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bard Cantrips" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="61f79a30-2cac-4a7a-b5fe-50c89d307dd6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0988d730-03e7-495a-9e6b-fe54482e7054" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bard 1st Rank" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_KineticRam;Target_TrueStrike;" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="dcb45167-86bd-4297-9b9d-c295be51af5b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ab24fb5f-fe43-4588-8970-d8582ecde3ed" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bard 2nd Rank" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_KineticRam;Target_TrueStrike;Target_TelekineticManuver;Target_ClearMind;Target_SoundBody;" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="5c018181-961a-4ae9-b441-521b7751da69" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ec72a4d4-451f-4f27-83a0-af723eec70b6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bard 3rd Rank" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="469bf066-992b-4584-b20d-0b32613632ef" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_KineticRam;Target_TrueStrike;Target_TelekineticManuver;Target_ClearMind;Target_SoundBody;Target_Levitate_PF2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0c1c96d4-6084-41b0-84db-49d56b39e3bc" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bard 4th Rank" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="f8aaccf3-9636-4288-8a2a-c339e99d82dc" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_KineticRam;Target_TrueStrike;Target_TelekineticManuver;Target_ClearMind;Target_SoundBody;Target_Levitate_PF2;Target_TortoiseAndHare;Target_PlanarTether;Target_Containment;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="20ee4c64-cdf0-4391-8f6a-a8a77107dc80" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bard 5th Rank" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="4c9674d7-b7a3-4a2f-be91-150d366d9d91" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_KineticRam;Target_TrueStrike;Target_TelekineticManuver;Target_ClearMind;Target_SoundBody;Target_Levitate_PF2;Target_TortoiseAndHare;Target_PlanarTether;Target_Containment;Throw_TelekineticHaul" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5e1bd744-7bc8-46ca-8fe2-fda867f708c2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Bard 6th Rank" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="b8ba6f39-17d4-4608-8bb7-b858b9e36da6" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_KineticRam;Target_TrueStrike;Target_TelekineticManuver;Target_ClearMind;Target_SoundBody;Target_Levitate_PF2;Target_TortoiseAndHare;Target_PlanarTether;Target_Containment;Throw_TelekineticHaul;Target_CollectiveTransposition" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

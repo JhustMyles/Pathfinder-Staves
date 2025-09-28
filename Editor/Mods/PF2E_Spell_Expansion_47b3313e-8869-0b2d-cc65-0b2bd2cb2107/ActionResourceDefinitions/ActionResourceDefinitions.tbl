@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="1f196a87-8d84-424d-badc-a3d11c5b8d23">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="53417767-a634-48bf-af76-b53f9425102e" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="SpellBlocker" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h21c32c7bg0839gef9ege7c7g9ac94ac6376e" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1a8611feg995cg3585gc9acg2e1a01fc7b76" version="1" />
+        <field name="MaxValue" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
