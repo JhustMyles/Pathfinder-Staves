@@ -1,0 +1,401 @@
+treasure itemtypes "Common","Uncommon","Rare","Epic","Legendary","Divine","Unique"
+new treasuretable "TUT_Chest_Potions"
+CanMerge 1
+new subtable "-1"
+object category "I_MAG_Staff_Water",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_MAG_Staff_Control",1,0,0,0,0,0,0,0
+new treasuretable "STAFF TABLES"
+new treasuretable "R1_Primal_Staves"
+new subtable "1,1"
+StartLevel "4"
+object category "I_MAG_Staff_Water",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Fire",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Earth",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Air",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Healing",1,0,0,0,0,0,0,0
+new treasuretable "R2_Primal_Staves"
+new subtable "1,1"
+StartLevel "6"
+object category "I_MAG_Staff_Water",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Fire",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Earth",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Air",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Healing",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Boreal",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Tempest",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Verdant",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_ElementalPower",1,0,0,0,0,0,0,0
+new treasuretable "R3_Primal_Staves"
+new subtable "1,1"
+StartLevel "8"
+object category "I_MAG_Staff_Water_Greater",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Fire_Greater",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Earth_Greater",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Air_Greater",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Healing_Greater",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Boreal",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Tempest",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Verdant",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_ElementalPower",1,0,0,0,0,0,0,0
+new treasuretable "R4_Primal_Staves"
+new subtable "1,1"
+StartLevel "10"
+object category "I_MAG_Staff_Water_Greater",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Fire_Greater",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Earth_Greater",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Air_Greater",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Healing_Greater",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Boreal_Greater",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Tempest_Greater",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Verdant",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_ElementalPower_Greater",1,0,0,0,0,0,0,0
+new treasuretable "R5_Primal_Staves"
+new subtable "1,1"
+StartLevel "12"
+object category "I_MAG_Staff_Water_Major",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Fire_Major",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Earth_Major",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Air_Major",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Boreal_Greater",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Tempest_Greater",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Verdant_Greater",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_ElementalPower_Greater",1,0,0,0,0,0,0,0
+object category "MAG_Staff_Healing_Major",1,0,0,0,0,0,0,0
+new treasuretable "R1_Occult_Staves"
+new subtable "1,1"
+StartLevel "4"
+object category "I_MAG_Coda_DrumsOfWar",1,0,0,0,0,0,0,0
+object category "I_MAG_Coda_StringsOfTurmoil",1,0,0,0,0,0,0,0
+object category "I_MAG_Coda_PipesOfCompulsion",1,0,0,0,0,0,0,0
+new treasuretable "R2_Occult_Staves"
+new subtable "1,1"
+StartLevel "6"
+object category "I_MAG_Coda_DrumsOfWar",1,0,0,0,0,0,0,0
+object category "I_MAG_Coda_StringsOfTurmoil",1,0,0,0,0,0,0,0
+object category "I_MAG_Coda_PipesOfCompulsion",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Control",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Dead",1,0,0,0,0,0,0,0
+new treasuretable "R3_Occult_Staves"
+new subtable "1,1"
+StartLevel "8"
+object category "I_MAG_Coda_DrumsOfWar_Greater",1,0,0,0,0,0,0,0
+object category "I_MAG_Coda_StringsOfTurmoil_Greater",1,0,0,0,0,0,0,0
+object category "I_MAG_Coda_PipesOfCompulsion_Greater",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Control",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Dead",1,0,0,0,0,0,0,0
+new treasuretable "R4_Occult_Staves"
+new subtable "1,1"
+StartLevel "10"
+object category "I_MAG_Coda_DrumsOfWar_Greater",1,0,0,0,0,0,0,0
+object category "I_MAG_Coda_StringsOfTurmoil_Greater",1,0,0,0,0,0,0,0
+object category "I_MAG_Coda_PipesOfCompulsion_Greater",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Control_Greater",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Dead_Greater",1,0,0,0,0,0,0,0
+new treasuretable "R5_Occult_Staves"
+new subtable "1,1"
+StartLevel "12"
+object category "I_MAG_Coda_DrumsOfWar_Major",1,0,0,0,0,0,0,0
+object category "I_MAG_Coda_StringsOfTurmoil_Major",1,0,0,0,0,0,0,0
+object category "I_MAG_Coda_PipesOfCompulsion_Major",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Control_Greater",1,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Dead_Greater",1,0,0,0,0,0,0,0
+new treasuretable "R6_Legendary_Staves"
+object category "I_MAG_Staff_Boreal_Major",0,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Tempest_Major",0,0,0,0,0,0,0,0
+object category "I_MAG_Staff_ElementalPower_Major",0,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Control_Major",0,0,0,0,0,0,0,0
+new treasuretable "Unique"
+object category "I_MAG_Staff_Dragonprism",0,0,0,0,0,0,0,0
+object category "I_MAG_Staff_ArcaneMight",0,0,0,0,0,0,0,0
+object category "I_MAG_Staff_Fiendbreaker",0,0,0,0,0,0,0,0
+object category "I_MAG_Staff_CherishedDead",0,0,0,0,0,0,0,0
+new treasuretable "ACT ONE"
+new treasuretable "DEN_Entrance_Trade"
+CanMerge 1
+new subtable "1,1;2,1"
+StartLevel "4"
+EndLevel "6"
+object category "T_R1_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,1;2,1"
+StartLevel "6"
+EndLevel "8"
+object category "T_R2_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,1;2,1"
+StartLevel "8"
+object category "T_R3_Primal_Staves",1,0,0,0,0,0,0,0
+new treasuretable "DEN_Volo_Trade"
+CanMerge 1
+new subtable "1,1;2,1"
+StartLevel "4"
+EndLevel "6"
+object category "T_R1_Occult_Staves",1,0,0,0,0,0,0,0
+new subtable "1,1;2,1"
+StartLevel "6"
+EndLevel "8"
+object category "T_R2_Occult_Staves",1,0,0,0,0,0,0,0
+new subtable "1,1;2,1"
+StartLevel "8"
+object category "T_R3_Occult_Staves",1,0,0,0,0,0,0,0
+new treasuretable "DEN_Weaponsmith_Trade"
+CanMerge 1
+new subtable "1,8;2,2"
+StartLevel "4"
+EndLevel "6"
+object category "T_R1_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "4"
+EndLevel "6"
+object category "T_R1_Occult_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "6"
+EndLevel "8"
+object category "T_R2_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "6"
+EndLevel "8"
+object category "T_R2_Occult_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "8"
+object category "T_R3_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "8"
+object category "T_R3_Occult_Staves",1,0,0,0,0,0,0,0
+new treasuretable "GOB_Quartermaster"
+CanMerge 1
+new subtable "1,1;2,1"
+StartLevel "4"
+EndLevel "6"
+object category "T_R1_Occult_Staves",1,0,0,0,0,0,0,0
+new subtable "1,1;2,1"
+StartLevel "6"
+EndLevel "8"
+object category "T_R2_Occult_Staves",1,0,0,0,0,0,0,0
+new subtable "1,1;2,1"
+StartLevel "8"
+object category "T_R3_Occult_Staves",1,0,0,0,0,0,0,0
+new treasuretable "GOB_Festivities_Trader"
+CanMerge 1
+new subtable "1,8;2,2"
+StartLevel "4"
+EndLevel "6"
+object category "T_R1_Occult_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "4"
+EndLevel "6"
+object category "T_R1_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "6"
+EndLevel "8"
+object category "T_R2_Occult_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "6"
+EndLevel "8"
+object category "T_R2_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "8"
+object category "T_R3_Occult_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "8"
+object category "T_R3_Primal_Staves",1,0,0,0,0,0,0,0
+new treasuretable "GOB_AftermathTrader"
+CanMerge 1
+new subtable "1,8;2,2"
+StartLevel "4"
+EndLevel "6"
+object category "T_R1_Occult_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "4"
+EndLevel "6"
+object category "T_R1_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "6"
+EndLevel "8"
+object category "T_R2_Occult_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "6"
+EndLevel "8"
+object category "T_R2_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "8"
+object category "T_R3_Occult_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "8"
+object category "T_R3_Primal_Staves",1,0,0,0,0,0,0,0
+new treasuretable "UND_SocietyOfBrilliance_Hobgoblin"
+CanMerge 1
+new subtable "1,1;2,1"
+StartLevel "4"
+EndLevel "6"
+object category "T_R1_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,1;2,1"
+StartLevel "6"
+EndLevel "8"
+object category "T_R2_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,1;2,1"
+StartLevel "8"
+object category "T_R3_Primal_Staves",1,0,0,0,0,0,0,0
+new treasuretable "UND_SocietyOfBrilliance_Mindflayer"
+CanMerge 1
+new subtable "1,1;2,1"
+StartLevel "4"
+EndLevel "6"
+object category "T_R1_Occult_Staves",1,0,0,0,0,0,0,0
+new subtable "1,1;2,1"
+StartLevel "6"
+EndLevel "8"
+object category "T_R2_Occult_Staves",1,0,0,0,0,0,0,0
+new subtable "1,1;2,1"
+StartLevel "8"
+object category "T_R3_Occult_Staves",1,0,0,0,0,0,0,0
+new treasuretable "UND_KC_Trader_Weapons"
+CanMerge 1
+new subtable "1,8;2,2"
+StartLevel "6"
+EndLevel "8"
+object category "T_R2_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "6"
+EndLevel "8"
+object category "T_R2_Occult_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "8"
+EndLevel "10"
+object category "T_R3_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "8"
+EndLevel "10"
+object category "T_R3_Occult_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "10"
+object category "T_R4_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "10"
+object category "T_R4_Occult_Staves",1,0,0,0,0,0,0,0
+new treasuretable "CRE_Expeditioner_Trade"
+CanMerge 1
+new subtable "1,1;2,1"
+StartLevel "6"
+EndLevel "8"
+object category "T_R2_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,1;2,1"
+StartLevel "8"
+EndLevel "10"
+object category "T_R3_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,1;2,1"
+StartLevel "10"
+object category "T_R4_Primal_Staves",1,0,0,0,0,0,0,0
+new treasuretable "CRE_GithQuartermistress_Trade"
+CanMerge 1
+new subtable "1,1;2,1"
+StartLevel "6"
+EndLevel "8"
+object category "T_R2_Occult_Staves",1,0,0,0,0,0,0,0
+new subtable "1,1;2,1"
+StartLevel "8"
+EndLevel "10"
+object category "T_R3_Occult_Staves",1,0,0,0,0,0,0,0
+new subtable "1,1;2,1"
+StartLevel "10"
+object category "T_R4_Occult_Staves",1,0,0,0,0,0,0,0
+new treasuretable "ACT TWO"
+new treasuretable "HAV_Weaponsmith_Trade"
+CanMerge 1
+new subtable "1,8;2,2"
+StartLevel "6"
+EndLevel "8"
+object category "T_R2_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "6"
+EndLevel "8"
+object category "T_R2_Occult_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "8"
+EndLevel "10"
+object category "T_R3_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "8"
+EndLevel "10"
+object category "T_R3_Occult_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "10"
+object category "T_R4_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "10"
+object category "T_R4_Occult_Staves",1,0,0,0,0,0,0,0
+new treasuretable "HAV_HarperQuarterMaster_Magic_Trade"
+CanMerge 1
+new subtable "1,1;2,1"
+StartLevel "6"
+EndLevel "8"
+object category "T_R2_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,1;2,1"
+StartLevel "8"
+EndLevel "10"
+object category "T_R3_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,1;2,1"
+StartLevel "10"
+object category "T_R4_Primal_Staves",1,0,0,0,0,0,0,0
+new treasuretable "MOO_ZhentQuartermaster"
+CanMerge 1
+new subtable "1,1;2,1"
+StartLevel "6"
+EndLevel "8"
+object category "T_R2_Occult_Staves",1,0,0,0,0,0,0,0
+new subtable "1,1;2,1"
+StartLevel "8"
+EndLevel "10"
+object category "T_R3_Occult_Staves",1,0,0,0,0,0,0,0
+new subtable "1,1;2,1"
+StartLevel "10"
+object category "T_R4_Occult_Staves",1,0,0,0,0,0,0,0
+new treasuretable "MOO_BugBearvendor_Trade"
+CanMerge 1
+new subtable "1,8;2,2"
+StartLevel "6"
+EndLevel "8"
+object category "T_R2_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "6"
+EndLevel "8"
+object category "T_R2_Occult_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "8"
+EndLevel "10"
+object category "T_R3_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "8"
+EndLevel "10"
+object category "T_R3_Occult_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "10"
+object category "T_R4_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "10"
+object category "T_R4_Occult_Staves",1,0,0,0,0,0,0,0
+new treasuretable "SHA_MerregonTrader"
+CanMerge 1
+new subtable "1,8;2,2"
+StartLevel "6"
+EndLevel "8"
+object category "T_R2_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "6"
+EndLevel "8"
+object category "T_R2_Occult_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "8"
+EndLevel "10"
+object category "T_R3_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "8"
+EndLevel "10"
+object category "T_R3_Occult_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "10"
+object category "T_R4_Primal_Staves",1,0,0,0,0,0,0,0
+new subtable "1,8;2,2"
+StartLevel "10"
+object category "T_R4_Occult_Staves",1,0,0,0,0,0,0,0
+new treasuretable "ACT THREE"
+new treasuretable "New_Stat_1"

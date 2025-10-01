@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e2a8d59b-0e34-4a7c-bf5f-db7a2bb34cde">
+  <stat_objects>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6dd8db1f-0ff8-4ffa-9d09-9aa3cde4f450" />
+        <field name="Name" type="NameTableFieldDefinition" value="STAFF CHARGE" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c376ded0-2611-4f09-b16e-912830877b17" />
+        <field name="Name" type="NameTableFieldDefinition" value="STAFFCHARGE_1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7bf35d3cgabd2g0d74g4272g99fe9e2c2605" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h567b6a6cg623egb148g0759g856bb0931c6f" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(CosmicOmen,1,0);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d14b19ae-e38d-4ad0-8fa1-fd2e48fc847f" />
+        <field name="Name" type="NameTableFieldDefinition" value="STAFFCHARGE_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c376ded0-2611-4f09-b16e-912830877b17" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(CosmicOmen,2,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ce5783bc-2c09-4cfa-b0a8-49eadb39960f" />
+        <field name="Name" type="NameTableFieldDefinition" value="STAFFCHARGE_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c376ded0-2611-4f09-b16e-912830877b17" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="3" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(CosmicOmen,3,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a9b5dc39-495f-4739-bc27-d3bac7c3862a" />
+        <field name="Name" type="NameTableFieldDefinition" value="STAFFCHARGE_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c376ded0-2611-4f09-b16e-912830877b17" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(CosmicOmen,4,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7f161d8b-9ae2-46be-9471-9c7c7b483cec" />
+        <field name="Name" type="NameTableFieldDefinition" value="STAFFCHARGE_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c376ded0-2611-4f09-b16e-912830877b17" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="5" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(CosmicOmen,5,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="52592433-5f15-4b64-bb87-9b63b34dd156" />
+        <field name="Name" type="NameTableFieldDefinition" value="STAFFCHARGE_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c376ded0-2611-4f09-b16e-912830877b17" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="6" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(CosmicOmen,6,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c229f74e-d6b3-4000-a021-17707e015fcd" />
+        <field name="Name" type="NameTableFieldDefinition" value="DISABLE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5642982dgcf77g34f3g2a33gf96c6f2173bd" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfd556d4cg82cagb325g0862gbe9e7d738d6d" version="4" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="RemoveOnLongRest" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="TadpoleSuperPower_AbilityDrain" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3da186c5-f1ae-48e3-a950-7679884efd8d" />
+        <field name="Name" type="NameTableFieldDefinition" value="STAFFFLEX_2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd72d3a1cg8f58g1172g6c6ege223e63d3323" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h246801c3gfa5cg4e4eg8d6fg77d9a6a96a2a" version="3" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(StaffSpellLevel2OrLower(),ModifyIconGlow(),ModifyTooltipDescription(),ModifyUseCosts(Replace,CosmicOmen,1,0,CosmicOmen));" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MagicInitiateWizard" />
+        <field name="StackId" type="StringTableFieldDefinition" value="STAFFFLEX" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSpellCast" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3ebba0f1-6283-49c3-8250-ac31cc243188" />
+        <field name="Name" type="NameTableFieldDefinition" value="STAFFFLEX_3" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(StaffSpellLevel3OrLower(),ModifyIconGlow(),ModifyTooltipDescription(),ModifyUseCosts(Replace,CosmicOmen,1,0,CosmicOmen));" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3da186c5-f1ae-48e3-a950-7679884efd8d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b5e80920-56d6-4e3b-ade0-cf3a2b59c7ad" />
+        <field name="Name" type="NameTableFieldDefinition" value="STAFFFLEX_4" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(StaffSpellLevel4OrLower(),ModifyIconGlow(),ModifyTooltipDescription(),ModifyUseCosts(Replace,CosmicOmen,1,0,CosmicOmen));" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3da186c5-f1ae-48e3-a950-7679884efd8d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b640d053-dff6-4dbc-aa3c-ee76c405919b" />
+        <field name="Name" type="NameTableFieldDefinition" value="STAFFFLEX_5" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(StaffSpellLevel5OrLower(),ModifyIconGlow(),ModifyTooltipDescription(),ModifyUseCosts(Replace,CosmicOmen,1,0,CosmicOmen));" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3da186c5-f1ae-48e3-a950-7679884efd8d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e9147bf1-6466-406a-b38c-bd2a4cf3c1af" />
+        <field name="Name" type="NameTableFieldDefinition" value="STAFFFLEX_6" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(StaffSpellLevel6OrLower(),ModifyIconGlow(),ModifyTooltipDescription(),ModifyUseCosts(Replace,CosmicOmen,1,0,CosmicOmen));" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3da186c5-f1ae-48e3-a950-7679884efd8d" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0ea0e816-e4e9-4cd7-9300-0c829b5452e3" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPELL STATUSES" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db4acdb1-1935-43c7-a789-157b40672977" />
+        <field name="Name" type="NameTableFieldDefinition" value="STAFF_FIRE_SHIELD_WARM" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h58668d37g26ecg2189g42f7g8c3948a449a5" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h561dd153g9bfcgc402gbd82ge32650370040" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Fire);Distance(3)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_FireShield_Warm" />
+        <field name="StackId" type="StringTableFieldDefinition" value="FIRE_SHIELD" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DamageReduction(Cold,Flat,5);" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Staff_FireShield_Warm;" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="a25f92a9-7078-4a5f-8648-c0bb9f4fee39" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_FireShieldWarm_MO" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_FireShieldWarm_MO_Stop" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="AI_ONLY:IF(not HasStatus('FIRE_SHIELD_CHILL') and not HasStatus('FIRE_SHIELD_WARM')):ApplyStatus(SELF,AI_HELPER_BUFF_SMALL,100,3)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7620a8ac-07c7-4b44-8338-a19bda784935" />
+        <field name="Name" type="NameTableFieldDefinition" value="STAFF_FIRE_SHIELD_WARM_6" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1a39b265g6c08g3905g95a1g41b5bf767486" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5edffae1g9fffgae47ga3a1gb11c78485e84" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d8,Fire);Distance(3)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_FireShield_Warm" />
+        <field name="StackId" type="StringTableFieldDefinition" value="FIRE_SHIELD" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DamageReduction(Cold,Flat,10);" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Staff_FireShield_Warm_6;" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="a25f92a9-7078-4a5f-8648-c0bb9f4fee39" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_FireShieldWarm_MO" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_FireShieldWarm_MO_Stop" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="AI_ONLY:IF(not HasStatus('FIRE_SHIELD_CHILL') and not HasStatus('FIRE_SHIELD_WARM')):ApplyStatus(SELF,AI_HELPER_BUFF_SMALL,100,3)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="53829400-f365-404c-be79-8b5e6b61ef99" />
+        <field name="Name" type="NameTableFieldDefinition" value="OakenResillience" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd27f2895g15b1g1f33g0b3age8b052505e37" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb2428465g80dbg7073gd68bgd0d4d583f51e" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="2;DealDamage(,Bludgeoning);DealDamage(,Piercing);3;DealDamage(,Fire)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Barkskin" />
+        <field name="StackId" type="StringTableFieldDefinition" value="OAKENRESILIENCE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DamageReduction(Bludgeoning,Flat,2);DamageReduction(Piercing,Flat,2);IF(IsDamageTypeFire()):DamageTakenBonus(3,Fire);" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="e5fc8f24-6939-4a5d-b627-27cf45040265" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d6010772-bbb9-4c62-b3b1-1d065f0faf63" />
+        <field name="Name" type="NameTableFieldDefinition" value="OakenResillience_4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h202f007fg465fg6728g7aa5gc79cad88cf77" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h80321f0dg2cc6g7a05g7bf6gd9d093dc23b1" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(,Bludgeoning);DealDamage(,Piercing);6;DealDamage(,Fire)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Barkskin" />
+        <field name="StackId" type="StringTableFieldDefinition" value="OAKENRESILIENCE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DamageReduction(Bludgeoning,Flat,4);DamageReduction(Piercing,Flat,4);IF(IsDamageTypeFire()):DamageTakenBonus(6,Fire);" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="e5fc8f24-6939-4a5d-b627-27cf45040265" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b05da712-64d0-46a6-b608-ccebe142d095" />
+        <field name="Name" type="NameTableFieldDefinition" value="OakenResillience_6" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9f552c1eg8f84g489bgd70agf4313dc37e42" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h26381060g6c40g52e5g21c9g1025fa3ba084" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="6;DealDamage(,Bludgeoning);DealDamage(,Piercing);9;DealDamage(,Fire)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Barkskin" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DamageReduction(Bludgeoning,Flat,6);DamageReduction(Piercing,Flat,6);DamageTakenBonus(9,Fire);" />
+        <field name="StackId" type="StringTableFieldDefinition" value="OAKENRESILIENCE" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="e5fc8f24-6939-4a5d-b627-27cf45040265" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

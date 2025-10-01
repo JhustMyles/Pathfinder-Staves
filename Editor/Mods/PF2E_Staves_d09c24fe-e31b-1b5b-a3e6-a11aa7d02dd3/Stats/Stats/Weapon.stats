@@ -1,0 +1,705 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a1fa1d2f-c335-4902-898c-4228c3c07d52">
+  <stat_objects>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c782c7bd-7c9c-497f-a8f6-86576a1ae47b" />
+        <field name="Name" type="NameTableFieldDefinition" value="3, 8, 12 STAVES" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ebec3656-b829-465e-ba48-33d3068ad492" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Water" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bd09a84b-e7ff-4567-beef-a8c3cc53d7fa" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="30dda95b-3f28-4252-97b4-595e41b73cd0" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="3.2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Staff_RayOfFrost);UnlockSpell(Target_Staff_CreateDestroyWater);UnlockSpell(Projectile_Staff_HydraulicPush_1);UnlockSpell(Target_Critspec_Club);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="FirResist_2;" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="3ae7de83-816a-43e3-a0e1-4d5b78664fc6" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile;NoDualWield" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="17c33c03-37b6-4125-919c-978601703093" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Water_Greater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ebec3656-b829-465e-ba48-33d3068ad492" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0dfbeba5-3028-4de1-810e-955661e06157" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="6.2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Staff_RayOfFrost);UnlockSpell(Target_Staff_CreateDestroyWater);UnlockSpell(Projectile_Staff_HydraulicPush_Container);UnlockSpell(Target_Staff_Mist_PF2);UnlockSpell(Zone_Staff_CrashingWave_Rank3);UnlockSpell(Target_Critspec_Club);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="FirResist_5;" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e6d8ae32-9e83-45d4-93cf-94d7acabf383" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Water_Major" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ebec3656-b829-465e-ba48-33d3068ad492" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="67dbd2ac-235f-454b-bf69-084ef2cf3dd3" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="3.3" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Staff_RayOfFrost);UnlockSpell(Target_Staff_CreateDestroyWater);UnlockSpell(Projectile_Staff_HydraulicPush_Container);UnlockSpell(Target_Staff_Mist_PF2);UnlockSpell(Zone_Staff_CrashingWave_Container);UnlockSpell(Zone_Staff_HydraulicTorrent_Rank4);UnlockSpell(Target_Staff_Geyser_Rank5);UnlockSpell(Target_Critspec_Club);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="FirResist_10;" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bbd5c10f-ae98-46e1-8e8f-6eb871908f51" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Fire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bd09a84b-e7ff-4567-beef-a8c3cc53d7fa" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a530b36f-fe07-4a8c-b240-b75f4bad389e" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="3.2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Staff_IgnitionContainer);UnlockSpell(Zone_Staff_BurningHands_1);UnlockSpell(Target_Critspec_Club);" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="3ae7de83-816a-43e3-a0e1-4d5b78664fc6" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile;NoDualWield" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="Kindle;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="586c1462-a63a-4138-ac19-017aa04f29e2" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Fire_Greater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bbd5c10f-ae98-46e1-8e8f-6eb871908f51" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="25311471-9f7d-44fa-82c3-690ce9d42d0b" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="6.2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Staff_IgnitionContainer);UnlockSpell(Zone_Staff_BurningHands_Container);UnlockSpell(Projectile_Staff_Fireball_ContainerA);UnlockSpell(Target_Critspec_Club);" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="Kindle" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8d9f2bbb-f8a5-4f6e-9700-a3ce144716ad" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Fire_Major" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bbd5c10f-ae98-46e1-8e8f-6eb871908f51" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1fd4d84f-14db-44e7-a8c0-0c5091f820d1" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="3.3" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Staff_IgnitionContainer);UnlockSpell(Zone_Staff_BurningHands_Container);UnlockSpell(Projectile_Staff_Fireball_ContainerB);UnlockSpell(Shout_Staff_FireShield_Summon);UnlockSpell(Target_Staff_WallOfFire_Container);UnlockSpell(Target_Critspec_Club);" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="Kindle;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e7f093e8-302a-4d2a-9394-1a1a29fb9965" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Earth" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bd09a84b-e7ff-4567-beef-a8c3cc53d7fa" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d3e1fb95-37f5-43f9-9ee1-aa2b566893cd" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="3.2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Staff_ScatterScree);UnlockSpell(Zone_Staff_PummelingRubble_1);UnlockSpell(Target_Critspec_Club);" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="3ae7de83-816a-43e3-a0e1-4d5b78664fc6" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile;NoDualWield" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="Immovable;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="36ec3007-ce9e-4430-a6f3-eb5a99e2dfd6" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Earth_Greater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e7f093e8-302a-4d2a-9394-1a1a29fb9965" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0dd1dd15-16aa-4484-8a03-7f30d03fce88" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="6.2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Staff_ScatterScree);UnlockSpell(Zone_Staff_PummelingRubble_Container);UnlockSpell(Zone_Staff_Shockwave_Rank2);UnlockSpell(Target_Staff_Earthbind_Rank3);UnlockSpell(Target_Staff_CaveFangs_Rank3);UnlockSpell(Target_Critspec_Club);" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="Immovable;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2f0faf11-8b16-43da-b9b3-4ffaa96ba2ea" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Earth_Major" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e7f093e8-302a-4d2a-9394-1a1a29fb9965" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7ecc2429-353a-41da-9630-767c701f27e4" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="3.3" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Staff_ScatterScree);UnlockSpell(Zone_Staff_PummelingRubble_Container);UnlockSpell(Zone_Staff_Shockwave_Container);UnlockSpell(Target_Staff_Earthbind_Rank3);UnlockSpell(Target_Staff_CaveFangs_Rank3);UnlockSpell(Target_Staff_MountainResilience_Rank4);UnlockSpell(Zone_Staff_BlazingFissure_Rank5);UnlockSpell(Wall_Staff_WallOfStone);UnlockSpell(Target_Critspec_Club);" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="Immovable;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="47c94f90-f3ed-49d2-9137-8b977be81592" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Air" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bd09a84b-e7ff-4567-beef-a8c3cc53d7fa" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="dc9e0be0-79d5-4c47-9423-c66800a4fb85" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="3.2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Staff_EldritchBlast);UnlockSpell(Target_Staff_Longstrider);UnlockSpell(Zone_Staff_GustOfWind);UnlockSpell(Target_Critspec_Club);" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="3ae7de83-816a-43e3-a0e1-4d5b78664fc6" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile;NoDualWield" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="FeatherStep" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a474bc3e-8782-4f1e-a7e5-267b99f86ad0" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Air_Greater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="47c94f90-f3ed-49d2-9137-8b977be81592" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b7dcb689-38ab-45ac-9d86-e7b8577b7cad" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="6.2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Staff_EldritchBlast);UnlockSpell(Target_Staff_Longstrider);UnlockSpell(Zone_Staff_GustOfWind);UnlockSpell(Target_Staff_AshCloud_Rank2);UnlockSpell(Target_Staff_Mist_PF2);UnlockSpell(Projectile_BlazingDive_Rank3);UnlockSpell(Zone_Staff_LightningBolt_Rank3);UnlockSpell(Target_Critspec_Club);" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="FeatherStep" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="93a2e269-5f18-4ef1-a473-bd2b9335940f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Air_Major" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="47c94f90-f3ed-49d2-9137-8b977be81592" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="aa033afb-a789-4ec5-a30e-0c2af7309962" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="3.3" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Staff_EldritchBlast);UnlockSpell(Target_Staff_Longstrider);UnlockSpell(Zone_Staff_GustOfWind);UnlockSpell(Target_Staff_AshCloud_Container);UnlockSpell(Target_Staff_Mist_PF2);UnlockSpell(Projectile_Staff_BlazingDive_Container);UnlockSpell(Zone_Staff_LightningBolt_ContainerC);UnlockSpell(Target_Staff_Fly_Rank4);UnlockSpell(Target_Critspec_Club);" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="FeatherStep" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2d60c223-9bfe-4505-86ea-8a94da387d54" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Healing" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bd09a84b-e7ff-4567-beef-a8c3cc53d7fa" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1f331528-4f40-4d38-a90d-db8ec4f08680" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="3.2" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="3ae7de83-816a-43e3-a0e1-4d5b78664fc6" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile;NoDualWield" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="AdditionalHeal_1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Staff_Stabilize);UnlockSpell(Target_Staff_HealBase1);UnlockSpell(Target_Critspec_Club);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0dce4a05-1ff4-4979-ae34-0f32f3294560" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Healing_Greater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d60c223-9bfe-4505-86ea-8a94da387d54" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f1ee941c-92a4-4a59-8920-3b36810176ca" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="6.2" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="AdditionalHeal_2;" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Staff_Stabilize);UnlockSpell(Target_Staff_HealBase2);UnlockSpell(Target_Staff_ClearMind);UnlockSpell(Target_Staff_SoundBody);UnlockSpell(Target_Staff_CleanseAffliction_Rank2);UnlockSpell(Target_Critspec_Club);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c062ad32-6094-453d-bd4f-2511d7366534" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Healing_Major" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d60c223-9bfe-4505-86ea-8a94da387d54" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="09d20b72-a9d8-4e43-8a68-97cf35eb1662" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="3.3" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="AdditionalHeal_3;" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Staff_Stabilize);UnlockSpell(Target_Staff_HealBase3);UnlockSpell(Target_Staff_ClearMind_Container);UnlockSpell(Target_Staff_SoundBody_Container);UnlockSpell(Target_Staff_CleanseAffliction_Rank2);UnlockSpell(Target_Critspec_Club);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e3ee5370-92c5-46a5-ad92-58f5dc59c5dc" />
+        <field name="Name" type="NameTableFieldDefinition" value="6, 10, 14 STAVES" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2403073f-d7b8-4f4e-9bda-4975cefb04e9" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Boreal" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bd09a84b-e7ff-4567-beef-a8c3cc53d7fa" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="67829de2-1749-4987-b682-cfd619c8216f" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="6.2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Staff_RayOfFrost);UnlockSpell(Zone_Staff_ChillingSpray_ContainerA);UnlockSpell(Zone_Staff_GustOfWind);UnlockSpell(Target_Critspec_Club);" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="3ae7de83-816a-43e3-a0e1-4d5b78664fc6" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile;NoDualWield" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="Icebreaker;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="609c6099-7e30-44b9-ad6f-4d92d8243cc4" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Boreal_Greater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2403073f-d7b8-4f4e-9bda-4975cefb04e9" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="cf9289d4-04ec-4b69-bbb9-fa764b5d7070" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="4.15" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Staff_RayOfFrost);UnlockSpell(Zone_Staff_ChillingSpray_ContainerB);UnlockSpell(Zone_Staff_GustOfWind);UnlockSpell(Target_Staff_Resist_Cold_Rank2);UnlockSpell(Target_Staff_IceStorm_Rank4);UnlockSpell(Target_Critspec_Club);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2779ba42-be54-4d13-9aae-970c24654406" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Boreal_Major" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2403073f-d7b8-4f4e-9bda-4975cefb04e9" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="65fdd174-6233-4e70-aeed-089ac9d4b4ce" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="5" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Staff_RayOfFrost);UnlockSpell(Zone_Staff_ChillingSpray_ContainerB);UnlockSpell(Zone_Staff_GustOfWind);UnlockSpell(Target_Staff_Resist_Cold_Rank2);UnlockSpell(Target_Staff_IceStorm_Rank4);UnlockSpell(Zone_Staff_HowlingBlizzard_ContainerB);UnlockSpell(Wall_Staff_WallOfIce_Rank5);UnlockSpell(Target_Critspec_Club);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6ef1406a-63e6-4b1d-8a0b-e4f6510e54bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Tempest" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bd09a84b-e7ff-4567-beef-a8c3cc53d7fa" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="00bb0529-09dc-4672-b066-b0ff4fde94b5" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="6.2" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="3ae7de83-816a-43e3-a0e1-4d5b78664fc6" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile;NoDualWield" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WayFinder" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Staff_ElectricArc);UnlockSpell(Projectile_Staff_HydraulicPush_1);UnlockSpell(Target_Staff_Thunderstrike_Container);UnlockSpell(Target_Staff_Mist_PF2);UnlockSpell(Target_Staff_ResistEnergy_Lightning_Rank2);UnlockSpell(Target_Critspec_Club);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9fe1409d-9579-4c42-9d47-d837afee2c8d" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Tempest_Greater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6ef1406a-63e6-4b1d-8a0b-e4f6510e54bb" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0571a9c7-43de-42cf-a295-b2a9257b53dd" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="4.15" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Staff_ElectricArc);UnlockSpell(Projectile_Staff_HydraulicPush_1);UnlockSpell(Target_Staff_Thunderstrike_Container);UnlockSpell(Target_Staff_Mist_PF2);UnlockSpell(Target_Staff_Resist_Lightning_Rank2);UnlockSpell(Zone_Staff_HydraulicTorrent_Rank4);UnlockSpell(Zone_Staff_LightningBolt_ContainerB);UnlockSpell(Target_Critspec_Club);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f6bb3cf2-2aab-44f7-8f12-6b388754bb6c" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Tempest_Major" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6ef1406a-63e6-4b1d-8a0b-e4f6510e54bb" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="544d4457-5d4c-4107-afda-ee4e444c8ad7" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="5" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Staff_ElectricArc);UnlockSpell(Projectile_Staff_HydraulicPush_1);UnlockSpell(Target_Staff_Thunderstrike_Container);UnlockSpell(Target_Staff_Mist_PF2);UnlockSpell(Target_Staff_Resist_Lightning_Rank2);UnlockSpell(Zone_Staff_HydraulicTorrent_Container);UnlockSpell(Zone_Staff_LightningBolt_ContainerB);UnlockSpell(Projectile_Staff_ChainLightning);UnlockSpell(Target_Critspec_Club);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d2570327-e7ba-4097-8d7d-06dc884ace87" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_ElementalPower" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bd09a84b-e7ff-4567-beef-a8c3cc53d7fa" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1a9b7c57-b8c7-4633-9ee1-2371ead62f62" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="6.2" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="3ae7de83-816a-43e3-a0e1-4d5b78664fc6" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile;NoDualWield" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ElementalFamiliarity" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Staff_RayOfFrost);UnlockSpell(Zone_Staff_BurningHands_1);UnlockSpell(Zone_Staff_PummelingRubble_1);UnlockSpell(Target_Staff_Thunderstrike_Rank1);UnlockSpell(Target_Staff_ResistEnergy_Lightning_Rank2);UnlockSpell(Projectile_Staff_BlazingBolt_Container_Rank2);UnlockSpell(Target_Staff_ResistEnergyPF2_Container);UnlockSpell(Target_Critspec_Club);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="179264b5-f1e4-4e4c-9cfd-d3035b95243b" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_ElementalPower_Greater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d2570327-e7ba-4097-8d7d-06dc884ace87" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b2af0598-cb32-4fde-bb12-094978c5b1bd" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="4.15" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Staff_ElectricArc);UnlockSpell(Projectile_Staff_HydraulicPush_1);UnlockSpell(Target_Staff_Thunderstrike_Container);UnlockSpell(Target_Staff_Mist_PF2);UnlockSpell(Target_Staff_ResistEnergy_Lightning_Rank2);UnlockSpell(Zone_Staff_HydraulicTorrent_Rank4);UnlockSpell(Zone_Staff_LightningBolt_ContainerB);UnlockSpell(Target_Critspec_Club);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e8171ea4-388a-44f0-80cf-02f6317801d8" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_ElementalPower_Major" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="179264b5-f1e4-4e4c-9cfd-d3035b95243b" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="544de860-c266-4313-9f09-ba7bdd4f02a7" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="5" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Staff_ElectricArc);UnlockSpell(Projectile_Staff_HydraulicPush_1);UnlockSpell(Target_Staff_Thunderstrike_Container);UnlockSpell(Target_Staff_Mist_PF2);UnlockSpell(Target_Staff_ResistEnergy_Lightning_Rank2);UnlockSpell(Zone_Staff_HydraulicTorrent_Container);UnlockSpell(Zone_Staff_LightningBolt_ContainerB);UnlockSpell(Projectile_Staff_ChainLightning);UnlockSpell(Target_Critspec_Club);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e220b6a6-1c39-4005-bfff-ab18cfac3375" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Control" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bd09a84b-e7ff-4567-beef-a8c3cc53d7fa" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="336dd575-1c3f-42e8-a711-3ccfe8f13195" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="6.2" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="3ae7de83-816a-43e3-a0e1-4d5b78664fc6" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile;NoDualWield" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Staff_Daze);UnlockSpell(Target_Staff_CharmPerson);UnlockSpell(Target_Staff_Command_Container);UnlockSpell(Target_Staff_Stupefy);UnlockSpell(Target_Critspec_Club);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="PersuasivePresence;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0ce2fc8a-9e9a-4965-a0c1-0dafe7fbbeaa" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Control_Greater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e220b6a6-1c39-4005-bfff-ab18cfac3375" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d3cbc8ac-6f8e-43f0-9097-be50a45f014e" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="4.15" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Staff_Daze);UnlockSpell(Target_Staff_CharmPerson);UnlockSpell(Target_Staff_Command_Container);UnlockSpell(Target_Staff_Stupefy);UnlockSpell(Target_Staff_Hypnotize_Rank3);UnlockSpell(Target_Staff_Confusion);UnlockSpell(Target_Critspec_Club);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="359b157f-f67c-49d9-aed0-fdc22ed83937" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Control_Major" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0ce2fc8a-9e9a-4965-a0c1-0dafe7fbbeaa" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="bb7a985d-5b8f-4263-b537-35081314a3f0" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="5" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cd2f8230-a100-4165-8f2b-051fa4f64c2f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Dead" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bd09a84b-e7ff-4567-beef-a8c3cc53d7fa" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="623bf760-0f0c-4ceb-a33c-90e0da645d91" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="6.2" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="3ae7de83-816a-43e3-a0e1-4d5b78664fc6" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile;NoDualWield" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Staff_ChillTouch);UnlockSpell(Zone_Staff_GrimTendrils_Rank1);UnlockSpell(Target_Staff_Darkness_PF2);UnlockSpell(Target_Critspec_Club);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4be8cf34-e7ff-41b3-99d8-098144b39275" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Dead_Greater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cd2f8230-a100-4165-8f2b-051fa4f64c2f" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b86064b9-2669-4d6b-86e0-80dc5a0df1b2" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="4.15" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Staff_ChillTouch);UnlockSpell(Zone_Staff_GrimTendrils_Rank1);UnlockSpell(Target_Staff_Darkness_PF2);UnlockSpell(Target_Staff_VampiricFeast_Rank3);UnlockSpell(Target_Staff_VisionOfDeath_Rank4);UnlockSpell(Target_Critspec_Club);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28d38a95-d9ca-4d9a-981b-2652e0ff1cda" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_CherishedDead" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4be8cf34-e7ff-41b3-99d8-098144b39275" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="fb421282-54be-4722-b338-76498af4b4cc" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="5" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8ee99f4e-3551-4288-aef8-40fcdc4ca310" />
+        <field name="Name" type="NameTableFieldDefinition" value="6, 12 STAVES" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="32ca645e-2a9d-4bf7-88df-ae3d0f624ccf" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Verdant" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bd09a84b-e7ff-4567-beef-a8c3cc53d7fa" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b279d381-8fb2-41b7-9b50-d241f16cd2bf" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="6.2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Staff_ThornWhip);UnlockSpell(Target_Staff_MagicWeapon);UnlockSpell(Target_Staff_Entangle_PF2);UnlockSpell(Target_Staff_OakenResillience);UnlockSpell(Target_Critspec_Club);" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="3ae7de83-816a-43e3-a0e1-4d5b78664fc6" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile;NoDualWield" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="OakenFamiliarity" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="420434fc-0a51-43d1-a2ec-4802f694a26e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Verdant_Greater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="32ca645e-2a9d-4bf7-88df-ae3d0f624ccf" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9fe485b1-7e86-4d38-a51a-8c0a370055e2" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="5" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6e63308e-5f5d-4260-8916-327046359b34" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_TumultousWoe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bd09a84b-e7ff-4567-beef-a8c3cc53d7fa" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b61a11f7-e3b3-42df-8be3-53c6ce6d4e0a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="5" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile;NoDualWield" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Critspec_Club);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="07560cb4-92d0-408e-be4f-2de16487a6b5" />
+        <field name="Name" type="NameTableFieldDefinition" value="LEGENDARY STAVES" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="df10f101-4d51-45c6-9060-7116f5c163a5" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Dragonprism" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bd09a84b-e7ff-4567-beef-a8c3cc53d7fa" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c39c22c6-79fd-498c-9e1b-9de8a1dbeb90" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="5" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile;NoDualWield" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="DragonsPresence;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="08e5b74d-66c2-4bf7-b7e5-3119e9f8908a" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_ArcaneMight" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bd09a84b-e7ff-4567-beef-a8c3cc53d7fa" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c39c22c6-79fd-498c-9e1b-9de8a1dbeb90" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="5" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile;NoDualWield" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="Sunder;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dc25172a-18cf-412f-8f7c-0136d9868cc4" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Fiendbreaker" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bd09a84b-e7ff-4567-beef-a8c3cc53d7fa" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c39c22c6-79fd-498c-9e1b-9de8a1dbeb90" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="5" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile;NoDualWield" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="JininsielsKnowledge" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d905d86d-a26a-4cc2-a925-e3f09c8052fa" />
+        <field name="Name" type="NameTableFieldDefinition" value="WAITING FOR SPELLS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ac121550-72c4-4c27-8b57-9f4d936972db" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_ImpossibleVisions" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bd09a84b-e7ff-4567-beef-a8c3cc53d7fa" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b9e9bbb9-c80f-48e4-b1e4-fe55b3af75eb" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="6.2" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="3ae7de83-816a-43e3-a0e1-4d5b78664fc6" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile;NoDualWield" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f6268aaf-76b0-40f8-9ccc-0d92c4de8cbd" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_ImpossibleVisions_Greater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ac121550-72c4-4c27-8b57-9f4d936972db" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="3558c21f-4a49-42bc-b284-ab64d89c8ea1" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="5" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b9a58394-cede-4aa9-b43f-cc5f5441fb88" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Ringmaster" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bd09a84b-e7ff-4567-beef-a8c3cc53d7fa" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6f972c67-8976-43d4-adb1-b7a4a4fee798" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="6.2" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="3ae7de83-816a-43e3-a0e1-4d5b78664fc6" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile;NoDualWield" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="44b19f1f-fcc1-46a5-9c21-18b756edb5aa" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Ringmaster_Greater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b9a58394-cede-4aa9-b43f-cc5f5441fb88" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e8d45679-54c5-4976-b115-fbbab52c36dc" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="5" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="42af5948-3eed-4867-944d-f5d384018972" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Metal" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bd09a84b-e7ff-4567-beef-a8c3cc53d7fa" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b4f2abb1-aa15-4c6b-9cd8-5f2ccc4ca5de" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="6.2" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="3ae7de83-816a-43e3-a0e1-4d5b78664fc6" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile;NoDualWield" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cecefb87-aa85-4755-8236-b2214ce05bd5" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Metal_Greater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="42af5948-3eed-4867-944d-f5d384018972" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="de18f980-6a8e-4405-a516-6c7a9c8b2a6e" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="4.15" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ae224233-3c89-4b68-97b2-dc4c28549cf8" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Metal_Major" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="42af5948-3eed-4867-944d-f5d384018972" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="cfcb93c9-0583-4a86-91aa-ecaa390085d1" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="5" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f42efe13-0a3d-4d0a-aa85-6e2d70f036aa" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Animal" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bd09a84b-e7ff-4567-beef-a8c3cc53d7fa" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="43d25d83-e603-44ed-8f09-0f00c2c14867" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="6.2" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="3ae7de83-816a-43e3-a0e1-4d5b78664fc6" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Melee;Dippable;Versatile;NoDualWield" enumeration_type_name="WeaponFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d45376e6-0229-4904-94a3-b2686245a203" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Animal_Greater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f42efe13-0a3d-4d0a-aa85-6e2d70f036aa" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="070c1f81-0a77-47b6-888c-50139824016c" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="4.15" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="997e2f8d-ffc2-44ba-be61-13e93dba0c12" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Staff_Animal_Major" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f42efe13-0a3d-4d0a-aa85-6e2d70f036aa" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="17516571-2930-4a48-a1fe-779942f075ab" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="5" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

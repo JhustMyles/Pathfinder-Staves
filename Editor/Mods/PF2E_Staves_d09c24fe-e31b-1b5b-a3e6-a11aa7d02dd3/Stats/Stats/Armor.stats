@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="239de60a-29b5-4010-bf7d-f6169d4ddd8a">
+  <stat_objects>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="989d922f-bab2-49d6-ac8d-3c7553b56731" />
+        <field name="Name" type="NameTableFieldDefinition" value="CODA" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a6b9c408-ea37-445d-888b-60c376ab6179" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Coda_DrumsOfWar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="efc980a4-0fbb-479e-aa70-242bd10e0be6" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="3ae7de83-816a-43e3-a0e1-4d5b78664fc6" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="3.2" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MarchingDrumbeat;" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Coda_Shield_Cantrip);UnlockSpell(Projectile_Coda_MagicMissile);UnlockSpell(Target_Coda_TrueStrike);UnlockSpell(Target_Coda_MageArmor);UnlockSpell(Shout_Bard_Perform_Drum);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="86891045-0e66-4aa6-9c2c-3c4c740ef23d" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Coda_DrumsOfWar_Greater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a6b9c408-ea37-445d-888b-60c376ab6179" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="6.2" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Coda_Shield_Cantrip);UnlockSpell(Projectile_Coda_MagicMissile);UnlockSpell(Target_Coda_TrueStrike);UnlockSpell(Target_Coda_MageArmor);UnlockSpell(Target_Coda_NoiseBlast_Rank2);UnlockSpell(Shout_Coda_FalseLife_Rank2);UnlockSpell(Target_Coda_Haste_Rank3);UnlockSpell(Target_Coda_Heroism_3);UnlockSpell(Shout_Bard_Perform_Drum);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3c0ccc66-283f-4c73-a889-e2fd20bb9be5" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Coda_DrumsOfWar_Major" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="86891045-0e66-4aa6-9c2c-3c4c740ef23d" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="3.3" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ad1456d9-b50b-4e12-8be8-d7b08ae4ba7a" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Coda_StringsOfTurmoil" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e24ec57b-95fb-46a6-8d96-59491ccb5583" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="3ae7de83-816a-43e3-a0e1-4d5b78664fc6" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="3.2" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="IntimidatingPerformance_1;" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Coda_Daze_Flute);UnlockSpell(Shout_Coda_Bane);UnlockSpell(Shout_Bard_Perform_Lute);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1c46a183-e26b-4e2b-be7a-7191a0374880" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Coda_StringsOfTurmoil_Greater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ad1456d9-b50b-4e12-8be8-d7b08ae4ba7a" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="6.2" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Coda_Daze_Flute);UnlockSpell(Shout_Coda_Bane);UnlockSpell(Target_Coda_Shatter);UnlockSpell(Target_Coda_Silence_Rank2);UnlockSpell(Target_Coda_Paralyze_Rank3);UnlockSpell(Shout_Bard_Perform_Lute);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="30949655-0d46-4ef2-8f9a-42cba8781acd" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Coda_StringsOfTurmoil_Major" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1c46a183-e26b-4e2b-be7a-7191a0374880" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="3.3" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="IntimidatingPerformance_2;" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3b13235f-5cf2-4b9d-a2d3-6bb0c7a93702" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Coda_PipesOfCompulsion" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2e47582b-2b78-4cae-8978-73884ae67d5e" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="3ae7de83-816a-43e3-a0e1-4d5b78664fc6" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="3.2" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="PersuasivePerformance_1;" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Common" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Coda_Daze_Flute);UnlockSpell(Target_Coda_Fear_Rank1);UnlockSpell(Target_Coda_Command_Container);UnlockSpell(Target_Coda_CharmPerson);UnlockSpell(Shout_Bard_Perform_Flute);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9066c8c8-981c-4357-8d14-1dc57d979b61" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Coda_PipesOfCompulsion_Greater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3b13235f-5cf2-4b9d-a2d3-6bb0c7a93702" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="6.2" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Coda_Daze_Flute);UnlockSpell(Target_Coda_Fear_Rank1);UnlockSpell(Target_Coda_Command_Container);UnlockSpell(Target_Coda_CharmPerson);UnlockSpell(Target_Coda_Stupefy);UnlockSpell(Target_Coda_Hypnotize_Rank3);UnlockSpell(Shout_Bard_Perform_Flute);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0cf72a29-55be-4824-8391-66312276b940" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Coda_PipesOfCompulsion_Major" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9066c8c8-981c-4357-8d14-1dc57d979b61" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="3.3" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="PersuasivePerformance_2;" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e2fa6047-d140-4273-80ab-545767d73e46" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Coda_GaspingLament" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="69f16f6d-7d41-4293-b095-080f2892eb8a" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Coda_Command_Container);UnlockSpell(Target_Coda_CharmPerson);UnlockSpell(Shout_Bard_Perform_Whistle);" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2ab4865f-d28a-474e-addf-1025d4b22a15" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Slot" type="EnumerationTableFieldDefinition" value="MusicalInstrument" enumeration_type_name="Itemslot" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="81764c3c-c7a9-49a7-b145-d31ffd5aebe1" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="3.3" />
+        <field name="ValueRounding" type="BoolTableFieldDefinition" value="True" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0.5" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="MusicalInstrument" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="InstrumentType" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="InstrumentType" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="IntimidatingPerformance_2" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="985f046e-435a-47cc-bfd2-7253eb2b415d" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPELL ITEMS" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="889e2aee-b82e-4074-a2c7-e62de38b1d4f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_FlamingShield" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="f0e7be35-8be4-483d-afa8-dc9a104ea758" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RaiseShield);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_Bash)" />
+        <field name="StatusOnEquip" type="StringTableFieldDefinition" value="STAFF_FIRE_SHIELD_WARM;" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="75096616-65e3-49e4-b8e7-7abf1687cd16" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_FlamingShield_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4fc0a0e2-14ec-4c81-b52a-04f2b12cb683" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="f0e7be35-8be4-483d-afa8-dc9a104ea758" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_RaiseShield);UnlockSpell(Target_Critspec_Club);UnlockSpell(Target_Bash)" />
+        <field name="StatusOnEquip" type="StringTableFieldDefinition" value="STAFF_FIRE_SHIELD_WARM_6" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9787fce8-7a29-48ad-911d-5dedfe9da162" />
+        <field name="Name" type="NameTableFieldDefinition" value="PASSIVES TO JEWELRY" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a84c8178-0a40-4edb-823d-b5085a94b7b2" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Ring_Mourning" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="24ff3ea9-3d84-4ee4-b908-a031e4a56e1a" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_Cold_ChilledOnSpellDamage_Passive;MAG_Cold_IncreaseColdDamageOnCast_Passive;" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,18 @@
+new entry "SPELL STATUSES"
+type "StatusData"
+data "StatusType" "EFFECT"
+
+new entry "PASSIVE_FIRE_SHIELD_WARM_ATTACKER"
+type "StatusData"
+data "StatusType" "EFFECT"
+using "_PASSIVES"
+data "DisplayName" "hacbcba75ge705g9e63gcdaag019dacde281b;1"
+data "StatusEffect" "6d0e83ab-9a72-472e-94d4-954fdf50d007"
+
+new entry "PASSIVE_FIRE_SHIELD_WARM"
+type "StatusData"
+data "StatusType" "EFFECT"
+using "_PASSIVES"
+data "DisplayName" "ha3dd83ccg46c1ga34cg4905gf4588fb75998;1"
+data "StatusEffect" "6071a665-c710-4f82-9c6a-c81d22bee8b3"
+

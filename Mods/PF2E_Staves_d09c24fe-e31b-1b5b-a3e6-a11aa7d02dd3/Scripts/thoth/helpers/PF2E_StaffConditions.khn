@@ -1,0 +1,23 @@
+local __util = require 'larian.util'
+--Conditions for Baldurs Gate Pathfinder Staves
+
+--Combine Staff Charge and Spell Level Detectors
+function StaffSpellLevel2OrLower()
+	return HasUseCosts('CosmicOmen') & (IsSpellLevel(2))
+end 
+
+function StaffSpellLevel3OrLower()
+	return HasUseCosts('CosmicOmen') & (IsSpellLevel(2) | IsSpellLevel(3))
+end 
+
+function StaffSpellLevel4OrLower()
+	return HasUseCosts('CosmicOmen') & (IsSpellLevel(2) | IsSpellLevel(3) | IsSpellLevel(4))
+end 
+
+function StaffSpellLevel5OrLower()
+	return HasUseCosts('CosmicOmen') & (IsSpellLevel(2) | IsSpellLevel(3) | IsSpellLevel(4) | IsSpellLevel(5))
+end 
+
+function StaffSpellLevel6OrLower()
+	return HasUseCosts('CosmicOmen') & (IsSpellLevel(2) | IsSpellLevel(3) | IsSpellLevel(4) | IsSpellLevel(5) | IsSpellLevel(6))
+end

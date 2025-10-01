@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="1f196a87-8d84-424d-badc-a3d11c5b8d23">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e02b29c7-37df-4170-8978-99310518cdb0" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="CosmicOmen" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1816a877ge6d1gbc2dg5183g9fb1ccbc8d92" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hffb6d2c8g6022g4be1g05f7gaf60aa2e4e8e" version="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+        <field name="IsHidden" type="BoolTableFieldDefinition" value="False" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
+        <field name="MaxValue" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Error" type="TranslatedStringTableFieldDefinition" handle="he5d115e9g127eg7dc4g6ad0g1dd29a538d80" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

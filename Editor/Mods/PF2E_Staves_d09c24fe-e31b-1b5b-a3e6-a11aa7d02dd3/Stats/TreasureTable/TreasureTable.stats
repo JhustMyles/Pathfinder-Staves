@@ -1,0 +1,1508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e4012e18-6a6b-4f40-aefa-c83b078c136c">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f3b19674-2845-466d-bcd8-13ace26ec0ff" />
+        <field name="Name" type="NameTableFieldDefinition" value="TUT_Chest_Potions" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Water" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f3b19674-2845-466d-bcd8-13ace26ec0ff" />
+        <field name="UUID" type="IdTableFieldDefinition" value="699b615b-825a-469a-842e-c4e0641d52f5" />
+        <field name="Name" type="NameTableFieldDefinition" value="TUT_Chest_Potions_substat" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Control" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="48102d6d-d56a-4406-b371-0455eaeee064" />
+        <field name="Name" type="NameTableFieldDefinition" value="STAFF TABLES" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8ff8f472-5efe-443c-8396-e57d848923bd" />
+        <field name="Name" type="NameTableFieldDefinition" value="R1_Primal_Staves" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Water" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8ff8f472-5efe-443c-8396-e57d848923bd" />
+        <field name="UUID" type="IdTableFieldDefinition" value="de2987e4-2a0a-4a64-80da-e4039f271131" />
+        <field name="Name" type="NameTableFieldDefinition" value="R1_Wands_Divine_substat_1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Fire" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8ff8f472-5efe-443c-8396-e57d848923bd" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9f201105-654f-463c-bd86-3f16135fa7cb" />
+        <field name="Name" type="NameTableFieldDefinition" value="R1_Elemental_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Earth" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8ff8f472-5efe-443c-8396-e57d848923bd" />
+        <field name="UUID" type="IdTableFieldDefinition" value="84135d79-da03-4b05-830b-1fe144d8bdfc" />
+        <field name="Name" type="NameTableFieldDefinition" value="8ff8f472-5efe-443c-8396-e57d848923bd_substat_0" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Air" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8ff8f472-5efe-443c-8396-e57d848923bd" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c13660f8-c495-4003-844e-690265e75f5c" />
+        <field name="Name" type="NameTableFieldDefinition" value="R1_Primal_Staves_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Healing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1a0c8f2c-9cc5-4c5a-9d56-bb487d8ddf26" />
+        <field name="Name" type="NameTableFieldDefinition" value="R2_Primal_Staves" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Water" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1a0c8f2c-9cc5-4c5a-9d56-bb487d8ddf26" />
+        <field name="UUID" type="IdTableFieldDefinition" value="90fff635-d41a-465d-b2ff-ab8b01da5100" />
+        <field name="Name" type="NameTableFieldDefinition" value="R2_Elemental_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Fire" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1a0c8f2c-9cc5-4c5a-9d56-bb487d8ddf26" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5dd46440-8623-4f08-a885-05b6c845b856" />
+        <field name="Name" type="NameTableFieldDefinition" value="1a0c8f2c-9cc5-4c5a-9d56-bb487d8ddf26_substat_0" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Earth" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1a0c8f2c-9cc5-4c5a-9d56-bb487d8ddf26" />
+        <field name="UUID" type="IdTableFieldDefinition" value="39bddafd-3c6c-47cf-8251-27b9f91df785" />
+        <field name="Name" type="NameTableFieldDefinition" value="1a0c8f2c-9cc5-4c5a-9d56-bb487d8ddf26_substat_1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Air" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1a0c8f2c-9cc5-4c5a-9d56-bb487d8ddf26" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8cb5ea81-6303-4b61-9498-321c93c67735" />
+        <field name="Name" type="NameTableFieldDefinition" value="1a0c8f2c-9cc5-4c5a-9d56-bb487d8ddf26_substat_2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Healing" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1a0c8f2c-9cc5-4c5a-9d56-bb487d8ddf26" />
+        <field name="UUID" type="IdTableFieldDefinition" value="65488746-6e16-44a4-bdc0-1bde5d72a1a9" />
+        <field name="Name" type="NameTableFieldDefinition" value="R2_Primal_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Boreal" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1a0c8f2c-9cc5-4c5a-9d56-bb487d8ddf26" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cd0b377c-d205-415c-b2cd-80335ccb837d" />
+        <field name="Name" type="NameTableFieldDefinition" value="1a0c8f2c-9cc5-4c5a-9d56-bb487d8ddf26_substat_3" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Tempest" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1a0c8f2c-9cc5-4c5a-9d56-bb487d8ddf26" />
+        <field name="UUID" type="IdTableFieldDefinition" value="430adab0-a343-4fa7-b1af-29582434a862" />
+        <field name="Name" type="NameTableFieldDefinition" value="R2_Primal_Staves_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Verdant" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1a0c8f2c-9cc5-4c5a-9d56-bb487d8ddf26" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a6ffb799-8034-43a8-8eff-61d023bd7c8d" />
+        <field name="Name" type="NameTableFieldDefinition" value="1a0c8f2c-9cc5-4c5a-9d56-bb487d8ddf26_substat_4" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_ElementalPower" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fef9b396-b489-4132-8598-1c1787f42f8e" />
+        <field name="Name" type="NameTableFieldDefinition" value="R3_Primal_Staves" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Water_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fef9b396-b489-4132-8598-1c1787f42f8e" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4609dda5-6af6-416f-949f-a0ee1ea65150" />
+        <field name="Name" type="NameTableFieldDefinition" value="R2_Wands_Divine_substat_0" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Fire_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fef9b396-b489-4132-8598-1c1787f42f8e" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8e440515-0341-4f98-a70c-6ac8d3837181" />
+        <field name="Name" type="NameTableFieldDefinition" value="R3_Elemental_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Earth_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fef9b396-b489-4132-8598-1c1787f42f8e" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3a2549d1-6d72-4a97-9423-cb710894891d" />
+        <field name="Name" type="NameTableFieldDefinition" value="fef9b396-b489-4132-8598-1c1787f42f8e_substat_0" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Air_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fef9b396-b489-4132-8598-1c1787f42f8e" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3279e7da-71f6-4b3a-ac56-f0c0ab91da88" />
+        <field name="Name" type="NameTableFieldDefinition" value="fef9b396-b489-4132-8598-1c1787f42f8e_substat_1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Healing_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fef9b396-b489-4132-8598-1c1787f42f8e" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0a6f9cc7-063e-4d87-8a27-5c7ffac4e5f6" />
+        <field name="Name" type="NameTableFieldDefinition" value="R3_Primal_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Boreal" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fef9b396-b489-4132-8598-1c1787f42f8e" />
+        <field name="UUID" type="IdTableFieldDefinition" value="23868d22-8022-4a8a-a563-d74d89047073" />
+        <field name="Name" type="NameTableFieldDefinition" value="fef9b396-b489-4132-8598-1c1787f42f8e_substat_2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Tempest" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fef9b396-b489-4132-8598-1c1787f42f8e" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5e772a5c-d1b7-4473-a3c0-4ba4c0a04427" />
+        <field name="Name" type="NameTableFieldDefinition" value="R3_Primal_Staves_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Verdant" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fef9b396-b489-4132-8598-1c1787f42f8e" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0b7abc5c-142b-4c18-98ed-90d0e503ec93" />
+        <field name="Name" type="NameTableFieldDefinition" value="fef9b396-b489-4132-8598-1c1787f42f8e_substat_3" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_ElementalPower" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="15101c8a-52eb-4a55-acbe-28857d37e87c" />
+        <field name="Name" type="NameTableFieldDefinition" value="R4_Primal_Staves" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Water_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="15101c8a-52eb-4a55-acbe-28857d37e87c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4cafecb8-392d-4251-8c6a-9544c9ad4d8a" />
+        <field name="Name" type="NameTableFieldDefinition" value="R4_Elemental_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Fire_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="15101c8a-52eb-4a55-acbe-28857d37e87c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="08f8099a-6a64-4118-b6de-ea72929b0acf" />
+        <field name="Name" type="NameTableFieldDefinition" value="15101c8a-52eb-4a55-acbe-28857d37e87c_substat_0" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Earth_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="15101c8a-52eb-4a55-acbe-28857d37e87c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a07da41e-4257-4a14-8c15-a7ee24808809" />
+        <field name="Name" type="NameTableFieldDefinition" value="15101c8a-52eb-4a55-acbe-28857d37e87c_substat_1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Air_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="15101c8a-52eb-4a55-acbe-28857d37e87c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cada1a9b-a9de-4fa7-bde3-e346e15858ce" />
+        <field name="Name" type="NameTableFieldDefinition" value="15101c8a-52eb-4a55-acbe-28857d37e87c_substat_2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Healing_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="15101c8a-52eb-4a55-acbe-28857d37e87c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fd9290b7-e131-47bc-ac05-0cb88c936463" />
+        <field name="Name" type="NameTableFieldDefinition" value="R4_Primal_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Boreal_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="15101c8a-52eb-4a55-acbe-28857d37e87c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7dd1c3bc-abbf-4868-8368-5c6a6e37c61e" />
+        <field name="Name" type="NameTableFieldDefinition" value="15101c8a-52eb-4a55-acbe-28857d37e87c_substat_3" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Tempest_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="15101c8a-52eb-4a55-acbe-28857d37e87c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="57798471-bb06-4d9c-955d-e5dd9d1d435d" />
+        <field name="Name" type="NameTableFieldDefinition" value="R4_Primal_Staves_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Verdant" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="15101c8a-52eb-4a55-acbe-28857d37e87c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5e2947ff-3758-4a0d-b0d0-cf64d7b9dcd1" />
+        <field name="Name" type="NameTableFieldDefinition" value="15101c8a-52eb-4a55-acbe-28857d37e87c_substat_4" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_ElementalPower_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="daf6accc-c441-4be1-b639-f9a25c007c0d" />
+        <field name="Name" type="NameTableFieldDefinition" value="R5_Primal_Staves" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="12" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Water_Major" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="daf6accc-c441-4be1-b639-f9a25c007c0d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c9a5791c-2dc5-4c4d-add8-81d990fa2053" />
+        <field name="Name" type="NameTableFieldDefinition" value="R3_Wands_Divine_substat_0" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Fire_Major" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="daf6accc-c441-4be1-b639-f9a25c007c0d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fb8d5d92-4708-4d23-8ec5-53a4b386768d" />
+        <field name="Name" type="NameTableFieldDefinition" value="R5_Elemental_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Earth_Major" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="daf6accc-c441-4be1-b639-f9a25c007c0d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4e6804da-6ec3-4ada-910d-d2f21d8e0e32" />
+        <field name="Name" type="NameTableFieldDefinition" value="daf6accc-c441-4be1-b639-f9a25c007c0d_substat_0" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Air_Major" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="daf6accc-c441-4be1-b639-f9a25c007c0d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a2439260-acf1-4ab3-be35-58a3732de4a5" />
+        <field name="Name" type="NameTableFieldDefinition" value="daf6accc-c441-4be1-b639-f9a25c007c0d_substat_1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Boreal_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="daf6accc-c441-4be1-b639-f9a25c007c0d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8d2e418d-93d1-4aab-8e2b-53aff2d28d9c" />
+        <field name="Name" type="NameTableFieldDefinition" value="R5_Primal_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Tempest_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="daf6accc-c441-4be1-b639-f9a25c007c0d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b44f8d79-64c0-4e4d-8475-95f772deed64" />
+        <field name="Name" type="NameTableFieldDefinition" value="daf6accc-c441-4be1-b639-f9a25c007c0d_substat_2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Verdant_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="daf6accc-c441-4be1-b639-f9a25c007c0d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6f4d1372-b16b-465a-9c38-82babc9338db" />
+        <field name="Name" type="NameTableFieldDefinition" value="R5_Primal_Staves_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_ElementalPower_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="daf6accc-c441-4be1-b639-f9a25c007c0d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f465afed-720b-4ce1-b04f-b39e105bdbdd" />
+        <field name="Name" type="NameTableFieldDefinition" value="daf6accc-c441-4be1-b639-f9a25c007c0d_substat_3" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="MAG_Staff_Healing_Major" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e5daf3cd-791b-4a02-b29b-7c5aea4be9c0" />
+        <field name="Name" type="NameTableFieldDefinition" value="R1_Occult_Staves" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Coda_DrumsOfWar" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e5daf3cd-791b-4a02-b29b-7c5aea4be9c0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2d1a9363-38a1-4c5d-af4b-44210f29c738" />
+        <field name="Name" type="NameTableFieldDefinition" value="R1_Occult_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Coda_StringsOfTurmoil" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e5daf3cd-791b-4a02-b29b-7c5aea4be9c0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f2e48e25-65bd-4bc2-bcc2-531070678846" />
+        <field name="Name" type="NameTableFieldDefinition" value="e5daf3cd-791b-4a02-b29b-7c5aea4be9c0_substat_0" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Coda_PipesOfCompulsion" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1e6acc20-080d-4cd4-a255-34d909e141b1" />
+        <field name="Name" type="NameTableFieldDefinition" value="R2_Occult_Staves" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Coda_DrumsOfWar" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1e6acc20-080d-4cd4-a255-34d909e141b1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="52a45633-b848-479d-8c71-e7ff50cc6a10" />
+        <field name="Name" type="NameTableFieldDefinition" value="R2_Occult_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Coda_StringsOfTurmoil" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1e6acc20-080d-4cd4-a255-34d909e141b1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a04dee7e-bcb6-416c-8d73-7fbeffb379d3" />
+        <field name="Name" type="NameTableFieldDefinition" value="1e6acc20-080d-4cd4-a255-34d909e141b1_substat_0" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Coda_PipesOfCompulsion" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1e6acc20-080d-4cd4-a255-34d909e141b1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d1943c34-b5cd-4c94-a58f-85268447c2eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="1e6acc20-080d-4cd4-a255-34d909e141b1_substat_1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Control" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1e6acc20-080d-4cd4-a255-34d909e141b1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="18a50fed-8fda-4a36-b73f-6486ea538585" />
+        <field name="Name" type="NameTableFieldDefinition" value="1e6acc20-080d-4cd4-a255-34d909e141b1_substat_2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Dead" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="acf1cbe9-6b35-471d-b3dd-f54194b6d9f5" />
+        <field name="Name" type="NameTableFieldDefinition" value="R3_Occult_Staves" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Coda_DrumsOfWar_Greater" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="acf1cbe9-6b35-471d-b3dd-f54194b6d9f5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="60021f94-6a10-4917-be50-21d856771e71" />
+        <field name="Name" type="NameTableFieldDefinition" value="R3_Occult_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Coda_StringsOfTurmoil_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="acf1cbe9-6b35-471d-b3dd-f54194b6d9f5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5de96160-3036-48b5-a72e-3bc581a272dd" />
+        <field name="Name" type="NameTableFieldDefinition" value="acf1cbe9-6b35-471d-b3dd-f54194b6d9f5_substat_0" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Coda_PipesOfCompulsion_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="acf1cbe9-6b35-471d-b3dd-f54194b6d9f5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="062b75b6-da1f-42a8-af97-a3bf7c82e326" />
+        <field name="Name" type="NameTableFieldDefinition" value="acf1cbe9-6b35-471d-b3dd-f54194b6d9f5_substat_1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Control" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="acf1cbe9-6b35-471d-b3dd-f54194b6d9f5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="dbf53738-f0d0-4d0b-bdac-0a3c820c4774" />
+        <field name="Name" type="NameTableFieldDefinition" value="acf1cbe9-6b35-471d-b3dd-f54194b6d9f5_substat_2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Dead" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="92736763-569e-4209-97c0-3c89b6b70855" />
+        <field name="Name" type="NameTableFieldDefinition" value="R4_Occult_Staves" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Coda_DrumsOfWar_Greater" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="92736763-569e-4209-97c0-3c89b6b70855" />
+        <field name="UUID" type="IdTableFieldDefinition" value="996889bd-2e04-4d1d-9f4d-599d5cdd3a63" />
+        <field name="Name" type="NameTableFieldDefinition" value="R4_Occult_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Coda_StringsOfTurmoil_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="92736763-569e-4209-97c0-3c89b6b70855" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1d788a46-8880-4ee4-b11b-d125d15548cb" />
+        <field name="Name" type="NameTableFieldDefinition" value="92736763-569e-4209-97c0-3c89b6b70855_substat_0" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Coda_PipesOfCompulsion_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="92736763-569e-4209-97c0-3c89b6b70855" />
+        <field name="UUID" type="IdTableFieldDefinition" value="274662a5-9756-487e-b197-0f82bf5c988a" />
+        <field name="Name" type="NameTableFieldDefinition" value="92736763-569e-4209-97c0-3c89b6b70855_substat_1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Control_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="92736763-569e-4209-97c0-3c89b6b70855" />
+        <field name="UUID" type="IdTableFieldDefinition" value="437bb6cc-a36a-4ce7-ae85-a9babf27a809" />
+        <field name="Name" type="NameTableFieldDefinition" value="92736763-569e-4209-97c0-3c89b6b70855_substat_2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Dead_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b56b6a2a-b29b-4c11-b243-975a1e3a28fb" />
+        <field name="Name" type="NameTableFieldDefinition" value="R5_Occult_Staves" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Coda_DrumsOfWar_Major" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b56b6a2a-b29b-4c11-b243-975a1e3a28fb" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6f22d31a-4465-4fe3-bad9-a0ddf3eac0af" />
+        <field name="Name" type="NameTableFieldDefinition" value="R5_Occult_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Coda_StringsOfTurmoil_Major" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b56b6a2a-b29b-4c11-b243-975a1e3a28fb" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d59f37d6-d341-4377-b1b4-1230313ee4d0" />
+        <field name="Name" type="NameTableFieldDefinition" value="b56b6a2a-b29b-4c11-b243-975a1e3a28fb_substat_0" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Coda_PipesOfCompulsion_Major" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b56b6a2a-b29b-4c11-b243-975a1e3a28fb" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2b93d5b4-39e3-412c-9112-f4cc3af67ed8" />
+        <field name="Name" type="NameTableFieldDefinition" value="b56b6a2a-b29b-4c11-b243-975a1e3a28fb_substat_1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Control_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b56b6a2a-b29b-4c11-b243-975a1e3a28fb" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3fc86c3c-d899-40fd-a1e4-93e9777de5c3" />
+        <field name="Name" type="NameTableFieldDefinition" value="b56b6a2a-b29b-4c11-b243-975a1e3a28fb_substat_2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Dead_Greater" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e07ea318-892f-4356-b3a6-ec3f6327c679" />
+        <field name="Name" type="NameTableFieldDefinition" value="R6_Legendary_Staves" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Boreal_Major" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e07ea318-892f-4356-b3a6-ec3f6327c679" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f1946745-2e54-4a71-a4a8-f85c262b9365" />
+        <field name="Name" type="NameTableFieldDefinition" value="R6_Legendary_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Tempest_Major" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e07ea318-892f-4356-b3a6-ec3f6327c679" />
+        <field name="UUID" type="IdTableFieldDefinition" value="bbce1a21-a052-4d19-8294-6e07b3bb78b8" />
+        <field name="Name" type="NameTableFieldDefinition" value="e07ea318-892f-4356-b3a6-ec3f6327c679_substat_0" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_ElementalPower_Major" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e07ea318-892f-4356-b3a6-ec3f6327c679" />
+        <field name="UUID" type="IdTableFieldDefinition" value="eb7f0639-72dc-4053-92eb-63bf97043cbc" />
+        <field name="Name" type="NameTableFieldDefinition" value="R6_Legendary_Staves_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Control_Major" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d768172f-d851-4ac7-9286-d06513d7e90d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Unique" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Dragonprism" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d768172f-d851-4ac7-9286-d06513d7e90d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1f6f395f-cd20-4b17-9a21-a3e6e2e4d347" />
+        <field name="Name" type="NameTableFieldDefinition" value="Unique_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_ArcaneMight" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d768172f-d851-4ac7-9286-d06513d7e90d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1857f5f5-aa68-40cf-b5a6-843124cd63de" />
+        <field name="Name" type="NameTableFieldDefinition" value="d768172f-d851-4ac7-9286-d06513d7e90d_substat_0" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_Fiendbreaker" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d768172f-d851-4ac7-9286-d06513d7e90d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8d8c56f1-b515-487a-9d77-80d6eb44072d" />
+        <field name="Name" type="NameTableFieldDefinition" value="d768172f-d851-4ac7-9286-d06513d7e90d_substat_1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_MAG_Staff_CherishedDead" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7cddc71c-e291-4b2e-b3ae-dd634d66b0a0" />
+        <field name="Name" type="NameTableFieldDefinition" value="ACT ONE" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e96e4385-81a9-433c-a80c-3fb8552d9b54" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEN_Entrance_Trade" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R1_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e96e4385-81a9-433c-a80c-3fb8552d9b54" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a541f357-cc7f-4991-b656-86d113f209b3" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEN_Entrance_Trade_substat_1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R2_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e96e4385-81a9-433c-a80c-3fb8552d9b54" />
+        <field name="UUID" type="IdTableFieldDefinition" value="10440892-3498-4f37-bfc6-4fa2667cd17f" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEN_Entrance_Trade_substat_4" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R3_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f1281b77-9509-48e9-bbed-b6771b766395" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEN_Volo_Trade" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R1_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f1281b77-9509-48e9-bbed-b6771b766395" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ffd63edb-4089-48f2-827b-37246e1d17b0" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEN_Volo_Trade_substat" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R2_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f1281b77-9509-48e9-bbed-b6771b766395" />
+        <field name="UUID" type="IdTableFieldDefinition" value="29de3499-32a4-41cc-bcdc-1381fb084e21" />
+        <field name="Name" type="NameTableFieldDefinition" value="f1281b77-9509-48e9-bbed-b6771b766395_substat_0" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R3_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="24080d50-b18d-4f64-926a-430a22776c2c" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEN_Weaponsmith_Trade" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R1_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="24080d50-b18d-4f64-926a-430a22776c2c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8c1cd4a4-b9e7-4a05-9f78-d8971ac24099" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEN_Weaponsmith_Trade_substat" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R1_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="24080d50-b18d-4f64-926a-430a22776c2c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4c96518e-2963-447a-96ac-7a974eb582c8" />
+        <field name="Name" type="NameTableFieldDefinition" value="24080d50-b18d-4f64-926a-430a22776c2c_substat_0" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R2_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="24080d50-b18d-4f64-926a-430a22776c2c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="149d7084-1660-4fb2-bb7a-3a908d678dec" />
+        <field name="Name" type="NameTableFieldDefinition" value="24080d50-b18d-4f64-926a-430a22776c2c_substat_1" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R2_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="24080d50-b18d-4f64-926a-430a22776c2c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f35a6db8-efa4-4157-9597-2251fd275762" />
+        <field name="Name" type="NameTableFieldDefinition" value="24080d50-b18d-4f64-926a-430a22776c2c_substat_2" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R3_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="24080d50-b18d-4f64-926a-430a22776c2c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1e721c1e-90c8-4b40-8d9d-a795c1c88447" />
+        <field name="Name" type="NameTableFieldDefinition" value="24080d50-b18d-4f64-926a-430a22776c2c_substat_3" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R3_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="487b45a8-c27a-461d-be34-e049b257cc6f" />
+        <field name="Name" type="NameTableFieldDefinition" value="GOB_Quartermaster" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R1_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="487b45a8-c27a-461d-be34-e049b257cc6f" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7e3f6dae-193e-4776-8863-5fe33774b13b" />
+        <field name="Name" type="NameTableFieldDefinition" value="GOB_Quartermaster_substat" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R2_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="487b45a8-c27a-461d-be34-e049b257cc6f" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ccba8153-aa4d-4a04-8c03-8ea701df7cd2" />
+        <field name="Name" type="NameTableFieldDefinition" value="487b45a8-c27a-461d-be34-e049b257cc6f_substat_0" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R3_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c42d0f6a-f07d-499d-8eca-6a3ac0e252f2" />
+        <field name="Name" type="NameTableFieldDefinition" value="GOB_Festivities_Trader" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R1_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c42d0f6a-f07d-499d-8eca-6a3ac0e252f2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="aaab3ad6-980f-4c62-a0fc-09f635a73c5c" />
+        <field name="Name" type="NameTableFieldDefinition" value="GOB_Festivities_Trader_substat" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R1_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c42d0f6a-f07d-499d-8eca-6a3ac0e252f2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cc0dad88-29c0-4085-b834-49e725a05a9f" />
+        <field name="Name" type="NameTableFieldDefinition" value="c42d0f6a-f07d-499d-8eca-6a3ac0e252f2_substat_0" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R2_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c42d0f6a-f07d-499d-8eca-6a3ac0e252f2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c9b4de2e-28c9-44d1-8eae-212be6be98be" />
+        <field name="Name" type="NameTableFieldDefinition" value="c42d0f6a-f07d-499d-8eca-6a3ac0e252f2_substat_1" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R2_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c42d0f6a-f07d-499d-8eca-6a3ac0e252f2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7593ee05-7966-426b-bea5-2adf7aed7518" />
+        <field name="Name" type="NameTableFieldDefinition" value="c42d0f6a-f07d-499d-8eca-6a3ac0e252f2_substat_2" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R3_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c42d0f6a-f07d-499d-8eca-6a3ac0e252f2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9309b7ac-7c51-4914-a085-1ce4fb0a9d22" />
+        <field name="Name" type="NameTableFieldDefinition" value="c42d0f6a-f07d-499d-8eca-6a3ac0e252f2_substat_3" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R3_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="26f19e22-8c0c-4d8d-98aa-75576685e645" />
+        <field name="Name" type="NameTableFieldDefinition" value="GOB_AftermathTrader" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R1_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="26f19e22-8c0c-4d8d-98aa-75576685e645" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7e0beeaa-bdce-4c56-86af-a44c369f55f9" />
+        <field name="Name" type="NameTableFieldDefinition" value="GOB_AftermathTrader_substat" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R1_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="26f19e22-8c0c-4d8d-98aa-75576685e645" />
+        <field name="UUID" type="IdTableFieldDefinition" value="114d6a61-6a87-4352-8009-436e5178f73c" />
+        <field name="Name" type="NameTableFieldDefinition" value="26f19e22-8c0c-4d8d-98aa-75576685e645_substat_0" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R2_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="26f19e22-8c0c-4d8d-98aa-75576685e645" />
+        <field name="UUID" type="IdTableFieldDefinition" value="26d6748c-d239-4947-996f-6f569e05c6bc" />
+        <field name="Name" type="NameTableFieldDefinition" value="26f19e22-8c0c-4d8d-98aa-75576685e645_substat_1" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R2_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="26f19e22-8c0c-4d8d-98aa-75576685e645" />
+        <field name="UUID" type="IdTableFieldDefinition" value="03c1270b-c493-4c82-bda8-2adad3bc4176" />
+        <field name="Name" type="NameTableFieldDefinition" value="26f19e22-8c0c-4d8d-98aa-75576685e645_substat_2" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R3_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="26f19e22-8c0c-4d8d-98aa-75576685e645" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1c8d874b-f612-4790-850b-95013bd8b10c" />
+        <field name="Name" type="NameTableFieldDefinition" value="26f19e22-8c0c-4d8d-98aa-75576685e645_substat_3" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R3_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d83ef35b-6672-4047-86f1-1e4eed1f4a0a" />
+        <field name="Name" type="NameTableFieldDefinition" value="UND_SocietyOfBrilliance_Hobgoblin" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R1_Primal_Staves" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d83ef35b-6672-4047-86f1-1e4eed1f4a0a" />
+        <field name="UUID" type="IdTableFieldDefinition" value="88a9ba92-ec48-405c-95f0-f086af99550c" />
+        <field name="Name" type="NameTableFieldDefinition" value="UND_SocietyOfBrilliance_Hobgoblin_substat" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R2_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d83ef35b-6672-4047-86f1-1e4eed1f4a0a" />
+        <field name="UUID" type="IdTableFieldDefinition" value="adeb5401-8e0d-435b-9803-59b8bbbf2a7d" />
+        <field name="Name" type="NameTableFieldDefinition" value="d83ef35b-6672-4047-86f1-1e4eed1f4a0a_substat_0" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R3_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="050b5a79-041b-40fc-ae39-3fc946fb8487" />
+        <field name="Name" type="NameTableFieldDefinition" value="UND_SocietyOfBrilliance_Mindflayer" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R1_Occult_Staves" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="050b5a79-041b-40fc-ae39-3fc946fb8487" />
+        <field name="UUID" type="IdTableFieldDefinition" value="74553336-9929-42ca-8c55-939035514a48" />
+        <field name="Name" type="NameTableFieldDefinition" value="UND_SocietyOfBrilliance_Mindflayer_substat" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R2_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="050b5a79-041b-40fc-ae39-3fc946fb8487" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c6bbbffd-5dbd-4e58-80a0-3dd673bc5463" />
+        <field name="Name" type="NameTableFieldDefinition" value="050b5a79-041b-40fc-ae39-3fc946fb8487_substat_0" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R3_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="62074a37-9a12-4a5c-ab97-f1949fd8fa5f" />
+        <field name="Name" type="NameTableFieldDefinition" value="UND_KC_Trader_Weapons" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R2_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="62074a37-9a12-4a5c-ab97-f1949fd8fa5f" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5e53f73f-1db8-4de0-a9ee-cb3437e451ae" />
+        <field name="Name" type="NameTableFieldDefinition" value="UND_KC_Trader_Weapons_substat" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R2_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="62074a37-9a12-4a5c-ab97-f1949fd8fa5f" />
+        <field name="UUID" type="IdTableFieldDefinition" value="12f04ba5-ff61-42ec-ad6c-45a3c71ca61e" />
+        <field name="Name" type="NameTableFieldDefinition" value="62074a37-9a12-4a5c-ab97-f1949fd8fa5f_substat_0" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R3_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="62074a37-9a12-4a5c-ab97-f1949fd8fa5f" />
+        <field name="UUID" type="IdTableFieldDefinition" value="da00111f-ba4e-403b-84a6-28b3a586b8db" />
+        <field name="Name" type="NameTableFieldDefinition" value="62074a37-9a12-4a5c-ab97-f1949fd8fa5f_substat_1" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R3_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="62074a37-9a12-4a5c-ab97-f1949fd8fa5f" />
+        <field name="UUID" type="IdTableFieldDefinition" value="79f0ea2f-6095-42fd-b3ae-cc39ef6d74d5" />
+        <field name="Name" type="NameTableFieldDefinition" value="62074a37-9a12-4a5c-ab97-f1949fd8fa5f_substat_2" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R4_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="62074a37-9a12-4a5c-ab97-f1949fd8fa5f" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fd901b2c-13a6-45e6-9d77-7a0513828d55" />
+        <field name="Name" type="NameTableFieldDefinition" value="62074a37-9a12-4a5c-ab97-f1949fd8fa5f_substat_3" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R4_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2d95bede-5d81-469a-8fba-9c8d6ea91892" />
+        <field name="Name" type="NameTableFieldDefinition" value="CRE_Expeditioner_Trade" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R2_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d95bede-5d81-469a-8fba-9c8d6ea91892" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3a4c3c9f-a5b8-4c85-96bd-96f1e5deb617" />
+        <field name="Name" type="NameTableFieldDefinition" value="CRE_Expeditioner_Trade_substat" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R3_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d95bede-5d81-469a-8fba-9c8d6ea91892" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1040ac76-931d-44fd-a9f1-a299ae16fef2" />
+        <field name="Name" type="NameTableFieldDefinition" value="2d95bede-5d81-469a-8fba-9c8d6ea91892_substat_0" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R4_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ab0c33c9-ea27-49e7-8ea1-0726b41f30fa" />
+        <field name="Name" type="NameTableFieldDefinition" value="CRE_GithQuartermistress_Trade" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R2_Occult_Staves" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ab0c33c9-ea27-49e7-8ea1-0726b41f30fa" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cf7ee01a-e9a5-4c67-ad78-ff4e6ab9a856" />
+        <field name="Name" type="NameTableFieldDefinition" value="CRE_GithQuartermistress_Trade_substat_0" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R3_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ab0c33c9-ea27-49e7-8ea1-0726b41f30fa" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5bde805d-6c1e-4f57-bae9-c62f6bf51889" />
+        <field name="Name" type="NameTableFieldDefinition" value="CRE_GithQuartermistress_Trade_substat_1" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R4_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dad23c83-e806-4d12-bd81-b6ed0ff48319" />
+        <field name="Name" type="NameTableFieldDefinition" value="ACT TWO" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dcade97b-8831-4d8d-8b95-06789ddb864b" />
+        <field name="Name" type="NameTableFieldDefinition" value="HAV_Weaponsmith_Trade" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R2_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dcade97b-8831-4d8d-8b95-06789ddb864b" />
+        <field name="UUID" type="IdTableFieldDefinition" value="de2f848b-80b5-4466-8b29-e9452f34a502" />
+        <field name="Name" type="NameTableFieldDefinition" value="HAV_Weaponsmith_Trade_substat" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R2_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dcade97b-8831-4d8d-8b95-06789ddb864b" />
+        <field name="UUID" type="IdTableFieldDefinition" value="27b0177c-8c1b-487d-9a74-22470fcea4f2" />
+        <field name="Name" type="NameTableFieldDefinition" value="dcade97b-8831-4d8d-8b95-06789ddb864b_substat_0" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R3_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dcade97b-8831-4d8d-8b95-06789ddb864b" />
+        <field name="UUID" type="IdTableFieldDefinition" value="049fe2a5-dc98-4424-89b8-777bcae1813e" />
+        <field name="Name" type="NameTableFieldDefinition" value="dcade97b-8831-4d8d-8b95-06789ddb864b_substat_1" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R3_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dcade97b-8831-4d8d-8b95-06789ddb864b" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c9573345-299d-4a92-952a-89d8cdc9e493" />
+        <field name="Name" type="NameTableFieldDefinition" value="dcade97b-8831-4d8d-8b95-06789ddb864b_substat_2" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R4_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dcade97b-8831-4d8d-8b95-06789ddb864b" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fb5a082b-4f44-4392-b285-179731050f45" />
+        <field name="Name" type="NameTableFieldDefinition" value="dcade97b-8831-4d8d-8b95-06789ddb864b_substat_3" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R4_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fa9d4942-4d46-4320-8205-e241b75ab699" />
+        <field name="Name" type="NameTableFieldDefinition" value="HAV_HarperQuarterMaster_Magic_Trade" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R2_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fa9d4942-4d46-4320-8205-e241b75ab699" />
+        <field name="UUID" type="IdTableFieldDefinition" value="84536a1b-c54d-4d7d-bd8a-bd7a583b7a30" />
+        <field name="Name" type="NameTableFieldDefinition" value="HAV_HarperQuarterMaster_Magic_Trade_substat" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R3_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fa9d4942-4d46-4320-8205-e241b75ab699" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f3b372a5-d9e2-4580-a550-26336426e97b" />
+        <field name="Name" type="NameTableFieldDefinition" value="fa9d4942-4d46-4320-8205-e241b75ab699_substat_0" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R4_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="506caf70-0b9e-4a8e-87e1-99a7b7de0512" />
+        <field name="Name" type="NameTableFieldDefinition" value="MOO_ZhentQuartermaster" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R2_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="506caf70-0b9e-4a8e-87e1-99a7b7de0512" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ce219d29-f48a-4c87-aa91-3bf9ecaa8e21" />
+        <field name="Name" type="NameTableFieldDefinition" value="MOO_ZhentQuartermaster_substat" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R3_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="506caf70-0b9e-4a8e-87e1-99a7b7de0512" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f172935e-fcc7-4c54-8aa8-cc90ce6fdf54" />
+        <field name="Name" type="NameTableFieldDefinition" value="506caf70-0b9e-4a8e-87e1-99a7b7de0512_substat_0" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1;2,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R4_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="253edcf8-53d4-47a9-8b17-94ca2976a907" />
+        <field name="Name" type="NameTableFieldDefinition" value="MOO_BugBearvendor_Trade" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R2_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="253edcf8-53d4-47a9-8b17-94ca2976a907" />
+        <field name="UUID" type="IdTableFieldDefinition" value="07966e3d-a306-4a52-a4be-404f88ca1f41" />
+        <field name="Name" type="NameTableFieldDefinition" value="MOO_BugBearvendor_Trade_substat" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R2_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="253edcf8-53d4-47a9-8b17-94ca2976a907" />
+        <field name="UUID" type="IdTableFieldDefinition" value="50a108d3-124c-46c2-88e5-efc1d51811de" />
+        <field name="Name" type="NameTableFieldDefinition" value="253edcf8-53d4-47a9-8b17-94ca2976a907_substat_0" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R3_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="253edcf8-53d4-47a9-8b17-94ca2976a907" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f6382528-b679-45e3-a49a-ea669443d3ed" />
+        <field name="Name" type="NameTableFieldDefinition" value="253edcf8-53d4-47a9-8b17-94ca2976a907_substat_1" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R3_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="253edcf8-53d4-47a9-8b17-94ca2976a907" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0d7a8eb8-e0ab-4a7a-b832-2600bb8c7898" />
+        <field name="Name" type="NameTableFieldDefinition" value="253edcf8-53d4-47a9-8b17-94ca2976a907_substat_2" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R4_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="253edcf8-53d4-47a9-8b17-94ca2976a907" />
+        <field name="UUID" type="IdTableFieldDefinition" value="92ba4059-9b2f-4009-b498-7fb53a48fd35" />
+        <field name="Name" type="NameTableFieldDefinition" value="253edcf8-53d4-47a9-8b17-94ca2976a907_substat_3" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R4_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4d674582-c1af-49c4-93da-c0df34db2f10" />
+        <field name="Name" type="NameTableFieldDefinition" value="SHA_MerregonTrader" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R2_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4d674582-c1af-49c4-93da-c0df34db2f10" />
+        <field name="UUID" type="IdTableFieldDefinition" value="133a279d-07c0-461f-a170-9fb245518f74" />
+        <field name="Name" type="NameTableFieldDefinition" value="SHA_MerregonTrader_substat" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R2_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4d674582-c1af-49c4-93da-c0df34db2f10" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c62061f1-eb86-4094-83cd-2084b489cf74" />
+        <field name="Name" type="NameTableFieldDefinition" value="4d674582-c1af-49c4-93da-c0df34db2f10_substat_0" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R3_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4d674582-c1af-49c4-93da-c0df34db2f10" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2738ccf8-6452-42c3-ae2a-5bf87cfcfdf4" />
+        <field name="Name" type="NameTableFieldDefinition" value="4d674582-c1af-49c4-93da-c0df34db2f10_substat_1" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="8" />
+        <field name="EndLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R3_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4d674582-c1af-49c4-93da-c0df34db2f10" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f143a9c2-3bc6-4611-87c3-6c44344681a8" />
+        <field name="Name" type="NameTableFieldDefinition" value="4d674582-c1af-49c4-93da-c0df34db2f10_substat_2" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R4_Primal_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4d674582-c1af-49c4-93da-c0df34db2f10" />
+        <field name="UUID" type="IdTableFieldDefinition" value="05a6bed8-b139-4f2d-b94a-e1ca780d1905" />
+        <field name="Name" type="NameTableFieldDefinition" value="4d674582-c1af-49c4-93da-c0df34db2f10_substat_3" />
+        <field name="StartLevel" type="IntegerTableFieldDefinition" value="10" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,8;2,2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_R4_Occult_Staves" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e65aea85-8004-4154-8d14-a489fdae8a16" />
+        <field name="Name" type="NameTableFieldDefinition" value="ACT THREE" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="48a806ae-daf1-45cb-a678-715e744016f8" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

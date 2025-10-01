@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="afc508da-dd39-4821-b0af-9955e5e2f087">
+  <stat_objects>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bd6b6bfd-4ecd-4a8c-a4f5-49dbccd20abb" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPELL STATUSES" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="702f7c48-157e-419b-9b78-4b55e81f93c9" />
+        <field name="Name" type="NameTableFieldDefinition" value="PASSIVE_FIRE_SHIELD_WARM_ATTACKER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hacbcba75ge705g9e63gcdaag019dacde281b" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="6d0e83ab-9a72-472e-94d4-954fdf50d007" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b35049e4-d205-4e43-928d-db5930e7f7bc" />
+        <field name="Name" type="NameTableFieldDefinition" value="PASSIVE_FIRE_SHIELD_WARM" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha3dd83ccg46c1ga34cg4905gf4588fb75998" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="6071a665-c710-4f82-9c6a-c81d22bee8b3" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
