@@ -1,4 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<MultiEffectInfos UUID="52871b54-f8eb-4693-b949-27ca7cf90d81" OwnerUUID="88340c7b-5e8b-4450-a54b-54a649c3257e" Name="KineticRam_1A_BeamEffect">
-  <EffectInfo UUID="9c46a0d7-665a-4073-ab92-d0b7c59ec4db" EffectResourceGuid="5ef7aed0-27bb-a16c-f2d7-b791507e5925" DetachSource="false" DetachTarget="false" KeepRotation="false" UseOrientDirection="true" UseDistance="true" UseScaleOverride="false" KeepScale="false" MainHand="false" OffHand="false" MinDistance="0" MaxDistance="0" BindSourceTo="SourceEntity" BindTargetTo="TargetEntity" Pivot="Source" Enabled="true" DamageType="None" VerbalIntent="None" SourceCheckEquipmentTagConditions="true" TargetCheckEquipmentTagConditions="true" />
-</MultiEffectInfos>
